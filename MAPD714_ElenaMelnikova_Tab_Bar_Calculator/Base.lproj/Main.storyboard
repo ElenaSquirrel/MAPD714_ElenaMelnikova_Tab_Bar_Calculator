@@ -51,7 +51,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGO-BI-l6U">
-                                <rect key="frame" x="16" y="36" width="343" height="150"/>
+                                <rect key="frame" x="5" y="25" width="365" height="150"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="wmO-3c-zdo"/>
@@ -61,7 +61,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXE-Tp-28b">
-                                <rect key="frame" x="16" y="524" width="169" height="78"/>
+                                <rect key="frame" x="5" y="530.5" width="180" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="0">
@@ -69,7 +69,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ih2-p4-6XE">
-                                <rect key="frame" x="277" y="524" width="82" height="78"/>
+                                <rect key="frame" x="283" y="530.5" width="87" height="82.5"/>
                                 <color key="backgroundColor" red="0.16272291489999999" green="0.58597797929999995" blue="0.22003547609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="=">
@@ -77,7 +77,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5Z-MJ-sCi">
-                                <rect key="frame" x="16" y="440.5" width="82" height="78.5"/>
+                                <rect key="frame" x="5" y="442.5" width="88" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="1">
@@ -85,7 +85,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ME5-Bd-vZB">
-                                <rect key="frame" x="16" y="357.5" width="82" height="78"/>
+                                <rect key="frame" x="5" y="355.5" width="88" height="82"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="4">
@@ -93,7 +93,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hY-EF-SUI">
-                                <rect key="frame" x="16" y="274" width="82" height="78.5"/>
+                                <rect key="frame" x="5" y="267.5" width="88" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="7">
@@ -101,7 +101,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMq-Ud-shD">
-                                <rect key="frame" x="16" y="191" width="82" height="78"/>
+                                <rect key="frame" x="5" y="180" width="88" height="82.5"/>
                                 <color key="backgroundColor" red="0.16272291489999999" green="0.58597797929999995" blue="0.22003547609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="C">
@@ -109,7 +109,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwD-Nd-6rQ">
-                                <rect key="frame" x="103" y="440.5" width="82" height="78.5"/>
+                                <rect key="frame" x="98" y="442.5" width="87" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="2">
@@ -117,7 +117,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YpP-v7-VKO">
-                                <rect key="frame" x="103" y="357.5" width="82" height="78"/>
+                                <rect key="frame" x="98" y="355.5" width="87" height="82"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="5">
@@ -125,7 +125,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhX-Xm-HMy">
-                                <rect key="frame" x="103" y="274" width="82" height="78.5"/>
+                                <rect key="frame" x="98" y="267.5" width="87" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="8">
@@ -133,7 +133,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6I-zh-qnf">
-                                <rect key="frame" x="103" y="191" width="82" height="78"/>
+                                <rect key="frame" x="98" y="180" width="87" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="+/-">
@@ -141,7 +141,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6H-6A-Oos">
-                                <rect key="frame" x="190" y="440.5" width="82" height="78.5"/>
+                                <rect key="frame" x="190" y="442.5" width="88" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="3">
@@ -149,7 +149,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-Og-jg3">
-                                <rect key="frame" x="277" y="440.5" width="82" height="78.5"/>
+                                <rect key="frame" x="283" y="442.5" width="87" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="+">
@@ -157,7 +157,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3Q-6e-ysI">
-                                <rect key="frame" x="190" y="357.5" width="82" height="78"/>
+                                <rect key="frame" x="190" y="355.5" width="88" height="82"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="6">
@@ -165,7 +165,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZ5-XI-njt">
-                                <rect key="frame" x="277" y="357.5" width="82" height="78"/>
+                                <rect key="frame" x="283" y="355.5" width="87" height="82"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="-">
@@ -173,7 +173,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0i-AW-kOY">
-                                <rect key="frame" x="190" y="274" width="82" height="78.5"/>
+                                <rect key="frame" x="190" y="267.5" width="88" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="9">
@@ -181,7 +181,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zh3-4f-UGb">
-                                <rect key="frame" x="277" y="274" width="82" height="78.5"/>
+                                <rect key="frame" x="283" y="267.5" width="87" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="x">
@@ -189,7 +189,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCW-3B-N5O">
-                                <rect key="frame" x="190" y="191" width="82" height="78"/>
+                                <rect key="frame" x="190" y="180" width="88" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="√">
@@ -197,7 +197,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJK-Wp-Cvu">
-                                <rect key="frame" x="277" y="191" width="82" height="78"/>
+                                <rect key="frame" x="283" y="180" width="87" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title="/">
@@ -205,10 +205,193 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQH-R4-SXo">
-                                <rect key="frame" x="190" y="524" width="82" height="78"/>
+                                <rect key="frame" x="190" y="530.5" width="88" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <state key="normal" title=".">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAU-Tp-ELa">
+                                <rect key="frame" x="5" y="5" width="657" height="110"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="PpT-lV-i5x">
+                                        <variation key="heightClass=compact" constant="110"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="60"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="PpT-lV-i5x"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="PpT-lV-i5x"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wn3-2g-97I">
+                                <rect key="frame" x="5" y="287.5" width="260" height="50.5"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3y-av-KkL">
+                                <rect key="frame" x="105" y="273" width="70" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKV-yP-eGS">
+                                <rect key="frame" x="5" y="120" width="127" height="51"/>
+                                <color key="backgroundColor" red="0.16272291489999999" green="0.58597797929999995" blue="0.22003547609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iX6-g0-Yyo">
+                                <rect key="frame" x="270" y="287.5" width="127" height="50.5"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Clb-1e-nJL">
+                                <rect key="frame" x="5" y="231.5" width="127" height="51"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlF-Gd-nRu">
+                                <rect key="frame" x="5" y="176" width="127" height="50.5"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckr-0C-m0P">
+                                <rect key="frame" x="535" y="287.5" width="127" height="50.5"/>
+                                <color key="backgroundColor" red="0.16272291489999999" green="0.58597797929999995" blue="0.22003547609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNh-zV-Hds">
+                                <rect key="frame" x="137" y="231.5" width="128" height="51"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2Z-g5-lGk">
+                                <rect key="frame" x="270" y="231.5" width="127" height="51"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uP1-ID-1A1">
+                                <rect key="frame" x="402" y="231.5" width="128" height="51"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="+/-">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdH-hV-hkB">
+                                <rect key="frame" x="535" y="231.5" width="127" height="51"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RRU-56-Jeh">
+                                <rect key="frame" x="137" y="176" width="128" height="50.5"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAy-Sa-JkF">
+                                <rect key="frame" x="270" y="176" width="127" height="50.5"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arR-tC-6Nh">
+                                <rect key="frame" x="402" y="176" width="128" height="50.5"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="√">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8Y-rj-rUR">
+                                <rect key="frame" x="535" y="176" width="127" height="50.5"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IF7-N9-8BO">
+                                <rect key="frame" x="137" y="120" width="128" height="51"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MiG-pk-0vw">
+                                <rect key="frame" x="402" y="120" width="128" height="51"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="/">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHt-k0-bLR">
+                                <rect key="frame" x="535" y="120" width="127" height="51"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5Y-10-bH2">
+                                <rect key="frame" x="402" y="287.5" width="128" height="50.5"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZO-6g-1EC">
+                                <rect key="frame" x="270" y="120" width="127" height="51.5"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="9">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
@@ -216,98 +399,429 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="L3Z-Og-jg3" firstAttribute="top" secondItem="hZ5-XI-njt" secondAttribute="bottom" constant="5" id="17z-n5-Bim"/>
-                            <constraint firstItem="wMq-Ud-shD" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="16" id="1Pc-9t-AcF"/>
-                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="Ih2-p4-6XE" secondAttribute="trailing" constant="16" id="3GB-qV-euQ"/>
+                            <constraint firstItem="wMq-Ud-shD" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="5" id="1Pc-9t-AcF"/>
+                            <constraint firstItem="wn3-2g-97I" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="1Sw-lX-QP7"/>
+                            <constraint firstItem="W5Y-10-bH2" firstAttribute="top" secondItem="uP1-ID-1A1" secondAttribute="bottom" constant="5" id="2Q2-d0-odv"/>
+                            <constraint firstItem="IF7-N9-8BO" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="2dD-2F-vSS"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="Ih2-p4-6XE" secondAttribute="trailing" constant="5" id="3GB-qV-euQ"/>
                             <constraint firstItem="YpP-v7-VKO" firstAttribute="leading" secondItem="ME5-Bd-vZB" secondAttribute="trailing" constant="5" id="3MH-b0-0RS"/>
                             <constraint firstItem="7hY-EF-SUI" firstAttribute="top" secondItem="wMq-Ud-shD" secondAttribute="bottom" constant="5" id="3OA-9K-y8P"/>
+                            <constraint firstItem="RRU-56-Jeh" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="3VD-FH-SKK"/>
                             <constraint firstItem="DXE-Tp-28b" firstAttribute="top" secondItem="y5Z-MJ-sCi" secondAttribute="bottom" constant="5" id="3VF-pX-TwI"/>
                             <constraint firstItem="hZ5-XI-njt" firstAttribute="leading" secondItem="H3Q-6e-ysI" secondAttribute="trailing" constant="5" id="3lX-GC-YgN"/>
                             <constraint firstItem="H3Q-6e-ysI" firstAttribute="top" secondItem="n0i-AW-kOY" secondAttribute="bottom" constant="5" id="3su-qm-HH2"/>
+                            <constraint firstItem="iAy-Sa-JkF" firstAttribute="leading" secondItem="RRU-56-Jeh" secondAttribute="trailing" constant="5" id="3vC-UO-0WK"/>
                             <constraint firstItem="m6H-6A-Oos" firstAttribute="leading" secondItem="qwD-Nd-6rQ" secondAttribute="trailing" constant="5" id="40R-6R-QMa"/>
+                            <constraint firstItem="arR-tC-6Nh" firstAttribute="leading" secondItem="iAy-Sa-JkF" secondAttribute="trailing" constant="5" id="4In-ie-7vw"/>
+                            <constraint firstItem="bAU-Tp-ELa" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="5" id="4QP-El-UZ9"/>
                             <constraint firstItem="n0i-AW-kOY" firstAttribute="top" secondItem="MCW-3B-N5O" secondAttribute="bottom" constant="5" id="4Yv-dR-pHg"/>
                             <constraint firstItem="DXE-Tp-28b" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="4fZ-zn-106"/>
+                            <constraint firstItem="bNh-zV-Hds" firstAttribute="leading" secondItem="Clb-1e-nJL" secondAttribute="trailing" constant="5" id="4kN-Kr-xE5"/>
+                            <constraint firstItem="GlF-Gd-nRu" firstAttribute="top" secondItem="iKV-yP-eGS" secondAttribute="bottom" constant="5" id="5vx-oy-X9y"/>
+                            <constraint firstItem="GlF-Gd-nRu" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="5" id="693-xS-Ovi"/>
                             <constraint firstItem="n0i-AW-kOY" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="6CX-5a-ogJ"/>
                             <constraint firstItem="L3Z-Og-jg3" firstAttribute="leading" secondItem="m6H-6A-Oos" secondAttribute="trailing" constant="5" id="6En-W8-zEI"/>
                             <constraint firstItem="n0i-AW-kOY" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="79V-fc-Zda"/>
-                            <constraint firstItem="Wtq-qY-paL" firstAttribute="bottom" secondItem="DXE-Tp-28b" secondAttribute="bottom" constant="16" id="Aaj-1g-mRY"/>
+                            <constraint firstItem="arR-tC-6Nh" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="8tB-iF-jZT"/>
+                            <constraint firstItem="iKV-yP-eGS" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="5" id="9Hy-LR-3cY"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="bAU-Tp-ELa" secondAttribute="trailing" constant="5" id="9gd-s4-Of5"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="bottom" secondItem="DXE-Tp-28b" secondAttribute="bottom" constant="5" id="Aaj-1g-mRY"/>
+                            <constraint firstItem="JHt-k0-bLR" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="B2Q-yE-jYW"/>
                             <constraint firstItem="lJK-Wp-Cvu" firstAttribute="top" secondItem="QGO-BI-l6U" secondAttribute="bottom" constant="5" id="B6L-zw-0Fp"/>
                             <constraint firstItem="YpP-v7-VKO" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="CBp-Tw-2rZ"/>
+                            <constraint firstItem="MiG-pk-0vw" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="CC2-8x-6hc"/>
+                            <constraint firstItem="kdH-hV-hkB" firstAttribute="leading" secondItem="uP1-ID-1A1" secondAttribute="trailing" constant="5" id="CIZ-zP-Vff"/>
                             <constraint firstItem="lJK-Wp-Cvu" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="CWv-3i-0e7"/>
-                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="lJK-Wp-Cvu" secondAttribute="trailing" constant="16" id="Cwb-wh-zqB"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="lJK-Wp-Cvu" secondAttribute="trailing" constant="5" id="Cwb-wh-zqB"/>
+                            <constraint firstItem="ckr-0C-m0P" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="Cwh-QY-Hfc"/>
+                            <constraint firstItem="i8Y-rj-rUR" firstAttribute="leading" secondItem="arR-tC-6Nh" secondAttribute="trailing" constant="5" id="CxT-kY-mKf"/>
                             <constraint firstItem="ME5-Bd-vZB" firstAttribute="top" secondItem="7hY-EF-SUI" secondAttribute="bottom" constant="5" id="DIS-it-uCJ"/>
                             <constraint firstItem="MCW-3B-N5O" firstAttribute="top" secondItem="QGO-BI-l6U" secondAttribute="bottom" constant="5" id="DLF-b4-gfh"/>
+                            <constraint firstItem="ckr-0C-m0P" firstAttribute="top" secondItem="kdH-hV-hkB" secondAttribute="bottom" constant="5" id="DpH-Bp-hEZ"/>
                             <constraint firstItem="s6I-zh-qnf" firstAttribute="leading" secondItem="wMq-Ud-shD" secondAttribute="trailing" constant="5" id="Dw0-El-EgP"/>
                             <constraint firstItem="s6I-zh-qnf" firstAttribute="top" secondItem="QGO-BI-l6U" secondAttribute="bottom" constant="5" id="E3p-DS-ykK"/>
+                            <constraint firstItem="RRU-56-Jeh" firstAttribute="top" secondItem="IF7-N9-8BO" secondAttribute="bottom" constant="5" id="EZV-ig-yca"/>
+                            <constraint firstItem="IF7-N9-8BO" firstAttribute="top" secondItem="bAU-Tp-ELa" secondAttribute="bottom" constant="5" id="Et2-xd-dxd"/>
                             <constraint firstItem="m6H-6A-Oos" firstAttribute="top" secondItem="H3Q-6e-ysI" secondAttribute="bottom" constant="5" id="Fdr-oo-lfK"/>
                             <constraint firstItem="qwD-Nd-6rQ" firstAttribute="leading" secondItem="y5Z-MJ-sCi" secondAttribute="trailing" constant="5" id="Fpd-yZ-Wgl"/>
-                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="QGO-BI-l6U" secondAttribute="trailing" constant="16" id="GOb-Mc-LkL"/>
+                            <constraint firstItem="IF7-N9-8BO" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="FrD-Tf-keh"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="bottom" secondItem="W5Y-10-bH2" secondAttribute="bottom" constant="5" id="G8z-Za-UXF"/>
+                            <constraint firstItem="Clb-1e-nJL" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="5" id="GK3-8D-D9O"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="QGO-BI-l6U" secondAttribute="trailing" constant="5" id="GOb-Mc-LkL"/>
                             <constraint firstItem="m6H-6A-Oos" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="Gtw-ov-gDC"/>
+                            <constraint firstItem="JHt-k0-bLR" firstAttribute="leading" secondItem="MiG-pk-0vw" secondAttribute="trailing" constant="5" id="H4h-bI-DSA"/>
                             <constraint firstItem="lJK-Wp-Cvu" firstAttribute="leading" secondItem="MCW-3B-N5O" secondAttribute="trailing" constant="5" id="HiU-WZ-jFq"/>
+                            <constraint firstItem="RRU-56-Jeh" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="IAg-Ik-4BC"/>
                             <constraint firstItem="m6H-6A-Oos" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="IDc-NG-Ij1"/>
-                            <constraint firstItem="QGO-BI-l6U" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="16" id="JWx-NR-CaF"/>
-                            <constraint firstItem="ME5-Bd-vZB" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="16" id="KCg-wb-Yws"/>
+                            <constraint firstItem="uP1-ID-1A1" firstAttribute="leading" secondItem="X2Z-g5-lGk" secondAttribute="trailing" constant="5" id="Icc-yR-98u"/>
+                            <constraint firstItem="QGO-BI-l6U" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="5" id="JWx-NR-CaF"/>
+                            <constraint firstItem="iKV-yP-eGS" firstAttribute="top" secondItem="bAU-Tp-ELa" secondAttribute="bottom" constant="5" id="Jcb-b3-mgd"/>
+                            <constraint firstItem="arR-tC-6Nh" firstAttribute="top" secondItem="MiG-pk-0vw" secondAttribute="bottom" constant="5" id="K4P-mZ-0Qg"/>
+                            <constraint firstItem="ME5-Bd-vZB" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="5" id="KCg-wb-Yws"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="JHt-k0-bLR" secondAttribute="trailing" constant="5" id="KOE-8c-M4c"/>
+                            <constraint firstItem="kdH-hV-hkB" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="KZu-KL-ZVF"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="kdH-hV-hkB" secondAttribute="trailing" constant="5" id="LSC-oF-1hf"/>
                             <constraint firstItem="L3Z-Og-jg3" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="Lur-ub-iIe"/>
+                            <constraint firstItem="bAU-Tp-ELa" firstAttribute="top" secondItem="Wtq-qY-paL" secondAttribute="top" constant="5" id="M4j-o0-6Ss"/>
+                            <constraint firstItem="i8Y-rj-rUR" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="MOX-u6-RZa"/>
                             <constraint firstItem="MCW-3B-N5O" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="Meh-a2-PkV"/>
+                            <constraint firstItem="IF7-N9-8BO" firstAttribute="leading" secondItem="iKV-yP-eGS" secondAttribute="trailing" constant="5" id="Mu8-xR-5cw"/>
                             <constraint firstItem="H3Q-6e-ysI" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="Mz1-md-KO3"/>
                             <constraint firstItem="s6I-zh-qnf" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="Nxg-5E-Luw"/>
-                            <constraint firstItem="Wtq-qY-paL" firstAttribute="bottom" secondItem="IQH-R4-SXo" secondAttribute="bottom" constant="16" id="NyT-lx-Msw"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="bottom" secondItem="IQH-R4-SXo" secondAttribute="bottom" constant="5" id="NyT-lx-Msw"/>
+                            <constraint firstItem="iX6-g0-Yyo" firstAttribute="leading" secondItem="wn3-2g-97I" secondAttribute="trailing" constant="5" id="ODG-1i-YN4"/>
                             <constraint firstItem="zh3-4f-UGb" firstAttribute="leading" secondItem="n0i-AW-kOY" secondAttribute="trailing" constant="5" id="OIq-fd-e9K"/>
+                            <constraint firstItem="X2Z-g5-lGk" firstAttribute="leading" secondItem="bNh-zV-Hds" secondAttribute="trailing" constant="5" id="Oso-H9-kIK"/>
+                            <constraint firstItem="ckr-0C-m0P" firstAttribute="leading" secondItem="W5Y-10-bH2" secondAttribute="trailing" constant="5" id="OyO-UP-z8Q"/>
+                            <constraint firstItem="i8Y-rj-rUR" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="PT2-PC-XDi"/>
                             <constraint firstItem="IQH-R4-SXo" firstAttribute="top" secondItem="m6H-6A-Oos" secondAttribute="bottom" constant="5" id="PYL-M0-17j"/>
                             <constraint firstItem="lJK-Wp-Cvu" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="QpO-ft-pJi"/>
                             <constraint firstItem="L3Z-Og-jg3" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="SLn-Vt-AhY"/>
                             <constraint firstItem="H3Q-6e-ysI" firstAttribute="leading" secondItem="YpP-v7-VKO" secondAttribute="trailing" constant="5" id="T38-Vz-Pju"/>
+                            <constraint firstItem="uP1-ID-1A1" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="TFf-GL-Znz"/>
+                            <constraint firstItem="iAy-Sa-JkF" firstAttribute="top" secondItem="JZO-6g-1EC" secondAttribute="bottom" constant="5" id="TLf-Mz-naj"/>
+                            <constraint firstItem="iX6-g0-Yyo" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="TQN-zq-ebT"/>
+                            <constraint firstItem="X2Z-g5-lGk" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="UCw-tU-ain"/>
+                            <constraint firstItem="GlF-Gd-nRu" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="UIt-WK-e3v"/>
                             <constraint firstItem="YpP-v7-VKO" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="UOg-C7-E1V"/>
+                            <constraint firstItem="kdH-hV-hkB" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="Uz1-8c-yKP"/>
+                            <constraint firstItem="bNh-zV-Hds" firstAttribute="top" secondItem="RRU-56-Jeh" secondAttribute="bottom" constant="5" id="Uzp-N8-if5"/>
                             <constraint firstItem="hZ5-XI-njt" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="VQ8-Rt-O50"/>
+                            <constraint firstItem="wn3-2g-97I" firstAttribute="top" secondItem="Clb-1e-nJL" secondAttribute="bottom" constant="5" id="WBD-33-N8e"/>
+                            <constraint firstItem="iX6-g0-Yyo" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="WRe-2M-lej"/>
                             <constraint firstItem="Ih2-p4-6XE" firstAttribute="leading" secondItem="IQH-R4-SXo" secondAttribute="trailing" constant="5" id="Whx-nU-US3"/>
+                            <constraint firstItem="JHt-k0-bLR" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="Xd6-Qv-xqf"/>
                             <constraint firstItem="ME5-Bd-vZB" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="Y85-qS-XDt"/>
+                            <constraint firstItem="i8Y-rj-rUR" firstAttribute="top" secondItem="JHt-k0-bLR" secondAttribute="bottom" constant="5" id="YGe-HO-6XS"/>
                             <constraint firstItem="qwD-Nd-6rQ" firstAttribute="top" secondItem="YpP-v7-VKO" secondAttribute="bottom" constant="5" id="YPC-DB-XND"/>
                             <constraint firstItem="Ih2-p4-6XE" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="Ygg-ZN-qwp"/>
                             <constraint firstItem="MCW-3B-N5O" firstAttribute="leading" secondItem="s6I-zh-qnf" secondAttribute="trailing" constant="5" id="You-kA-You"/>
+                            <constraint firstItem="JZO-6g-1EC" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="Zmx-tQ-PUr"/>
+                            <constraint firstItem="X2Z-g5-lGk" firstAttribute="top" secondItem="iAy-Sa-JkF" secondAttribute="bottom" constant="5" id="a0u-K0-lW7"/>
+                            <constraint firstItem="JZO-6g-1EC" firstAttribute="top" secondItem="bAU-Tp-ELa" secondAttribute="bottom" constant="5" id="a1J-Pw-KlA"/>
                             <constraint firstItem="zh3-4f-UGb" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="aO7-7C-RB9"/>
+                            <constraint firstItem="Clb-1e-nJL" firstAttribute="top" secondItem="GlF-Gd-nRu" secondAttribute="bottom" constant="5" id="ajP-4I-eRM"/>
+                            <constraint firstItem="JZO-6g-1EC" firstAttribute="leading" secondItem="IF7-N9-8BO" secondAttribute="trailing" constant="5" id="at9-tW-vI8"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="bottom" secondItem="ckr-0C-m0P" secondAttribute="bottom" constant="5" id="b8k-XE-UBJ"/>
                             <constraint firstItem="7hY-EF-SUI" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="bqM-4h-eFA"/>
+                            <constraint firstItem="kdH-hV-hkB" firstAttribute="top" secondItem="i8Y-rj-rUR" secondAttribute="bottom" constant="5" id="dD4-9r-qhl"/>
                             <constraint firstItem="zh3-4f-UGb" firstAttribute="top" secondItem="lJK-Wp-Cvu" secondAttribute="bottom" constant="5" id="dbb-AV-Sou"/>
                             <constraint firstItem="H3Q-6e-ysI" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="e7q-ei-e5a"/>
-                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="L3Z-Og-jg3" secondAttribute="trailing" constant="16" id="eWc-N5-qfe"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="bottom" secondItem="iX6-g0-Yyo" secondAttribute="bottom" constant="5" id="eGM-iA-yT0"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="L3Z-Og-jg3" secondAttribute="trailing" constant="5" id="eWc-N5-qfe"/>
                             <constraint firstItem="IQH-R4-SXo" firstAttribute="leading" secondItem="DXE-Tp-28b" secondAttribute="trailing" constant="5" id="fDv-fx-EgG"/>
+                            <constraint firstItem="W5Y-10-bH2" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="g3V-Hw-YgU"/>
+                            <constraint firstItem="Clb-1e-nJL" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="gEv-73-gMP"/>
+                            <constraint firstItem="JZO-6g-1EC" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="gFm-x9-UFV"/>
                             <constraint firstItem="y5Z-MJ-sCi" firstAttribute="top" secondItem="ME5-Bd-vZB" secondAttribute="bottom" constant="5" id="gRg-Zl-OH7"/>
                             <constraint firstItem="zh3-4f-UGb" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="h2d-Me-aV0"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="ckr-0C-m0P" secondAttribute="trailing" constant="5" id="h6X-eE-Eon"/>
+                            <constraint firstItem="MiG-pk-0vw" firstAttribute="top" secondItem="bAU-Tp-ELa" secondAttribute="bottom" constant="5" id="hhr-Hv-Fav"/>
+                            <constraint firstItem="W5Y-10-bH2" firstAttribute="leading" secondItem="iX6-g0-Yyo" secondAttribute="trailing" constant="5" id="hqp-f6-oSp"/>
                             <constraint firstItem="WhX-Xm-HMy" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="hxh-64-Bal"/>
-                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="hZ5-XI-njt" secondAttribute="trailing" constant="16" id="hxq-gx-baU"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="hZ5-XI-njt" secondAttribute="trailing" constant="5" id="hxq-gx-baU"/>
+                            <constraint firstItem="W5Y-10-bH2" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="i8M-ZN-YFA"/>
                             <constraint firstItem="y5Z-MJ-sCi" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="iIo-yu-5ei"/>
+                            <constraint firstItem="uP1-ID-1A1" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="iV9-cb-a5R"/>
+                            <constraint firstItem="wn3-2g-97I" firstAttribute="top" secondItem="bNh-zV-Hds" secondAttribute="bottom" constant="5" id="idd-3J-nYo"/>
+                            <constraint firstItem="JHt-k0-bLR" firstAttribute="top" secondItem="bAU-Tp-ELa" secondAttribute="bottom" constant="5" id="iyB-WM-bGO"/>
+                            <constraint firstItem="wn3-2g-97I" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="5" id="j7e-Xq-9Ge"/>
+                            <constraint firstItem="MiG-pk-0vw" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="jeX-ZH-TdP"/>
+                            <constraint firstItem="RRU-56-Jeh" firstAttribute="leading" secondItem="GlF-Gd-nRu" secondAttribute="trailing" constant="5" id="jkJ-z1-ckS"/>
+                            <constraint firstItem="ckr-0C-m0P" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="k63-84-9rP"/>
                             <constraint firstItem="wMq-Ud-shD" firstAttribute="top" secondItem="QGO-BI-l6U" secondAttribute="bottom" constant="5" id="k7I-Dn-9qf"/>
                             <constraint firstItem="WhX-Xm-HMy" firstAttribute="leading" secondItem="7hY-EF-SUI" secondAttribute="trailing" constant="5" id="lDe-nF-Az0"/>
                             <constraint firstItem="qwD-Nd-6rQ" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="lON-5m-FAT"/>
                             <constraint firstItem="IQH-R4-SXo" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="lre-R2-MHG"/>
-                            <constraint firstItem="Wtq-qY-paL" firstAttribute="bottom" secondItem="Ih2-p4-6XE" secondAttribute="bottom" constant="16" id="m6k-0v-yZe"/>
-                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="zh3-4f-UGb" secondAttribute="trailing" constant="16" id="mZ9-hJ-pNc"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="bottom" secondItem="Ih2-p4-6XE" secondAttribute="bottom" constant="5" id="m6k-0v-yZe"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="zh3-4f-UGb" secondAttribute="trailing" constant="5" id="mZ9-hJ-pNc"/>
                             <constraint firstItem="hZ5-XI-njt" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="msT-qf-TYu"/>
-                            <constraint firstItem="QGO-BI-l6U" firstAttribute="top" secondItem="Wtq-qY-paL" secondAttribute="top" constant="16" id="ncD-il-ehz"/>
+                            <constraint firstItem="QGO-BI-l6U" firstAttribute="top" secondItem="Wtq-qY-paL" secondAttribute="top" constant="5" id="ncD-il-ehz"/>
                             <constraint firstItem="WhX-Xm-HMy" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="nij-Bg-VMl"/>
+                            <constraint firstItem="bNh-zV-Hds" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="oOb-V7-Y2G"/>
+                            <constraint firstItem="MiG-pk-0vw" firstAttribute="leading" secondItem="JZO-6g-1EC" secondAttribute="trailing" constant="28" id="onU-gW-iwN">
+                                <variation key="heightClass=compact" constant="5"/>
+                            </constraint>
+                            <constraint firstItem="Clb-1e-nJL" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="p5D-Nh-a4G"/>
                             <constraint firstItem="Ih2-p4-6XE" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="pLQ-lG-Mp2"/>
-                            <constraint firstItem="y5Z-MJ-sCi" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="16" id="pQ8-CP-EnU"/>
+                            <constraint firstItem="y5Z-MJ-sCi" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="5" id="pQ8-CP-EnU"/>
+                            <constraint firstItem="iAy-Sa-JkF" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="paM-dg-Z49"/>
+                            <constraint firstItem="iX6-g0-Yyo" firstAttribute="top" secondItem="X2Z-g5-lGk" secondAttribute="bottom" constant="5" id="qE5-md-yHz"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="trailing" secondItem="i8Y-rj-rUR" secondAttribute="trailing" constant="5" id="qNQ-qH-5gF"/>
+                            <constraint firstItem="X2Z-g5-lGk" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="qkO-oM-W7f"/>
+                            <constraint firstItem="iAy-Sa-JkF" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="sUe-zw-61R"/>
                             <constraint firstItem="Ih2-p4-6XE" firstAttribute="top" secondItem="L3Z-Og-jg3" secondAttribute="bottom" constant="5" id="sZf-OR-wJp"/>
                             <constraint firstItem="WhX-Xm-HMy" firstAttribute="top" secondItem="s6I-zh-qnf" secondAttribute="bottom" constant="5" id="sw0-LR-k6P"/>
                             <constraint firstItem="IQH-R4-SXo" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="tnj-he-igN"/>
+                            <constraint firstItem="bNh-zV-Hds" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="tz2-Jn-uo4"/>
                             <constraint firstItem="y5Z-MJ-sCi" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="vMm-Fb-JgO"/>
                             <constraint firstItem="MCW-3B-N5O" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="vmK-OG-yfV"/>
-                            <constraint firstItem="7hY-EF-SUI" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="16" id="vsD-4G-t6L"/>
+                            <constraint firstItem="7hY-EF-SUI" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="5" id="vsD-4G-t6L"/>
                             <constraint firstItem="DXE-Tp-28b" firstAttribute="top" secondItem="qwD-Nd-6rQ" secondAttribute="bottom" constant="5" id="vyC-C0-RoN"/>
                             <constraint firstItem="hZ5-XI-njt" firstAttribute="top" secondItem="zh3-4f-UGb" secondAttribute="bottom" constant="5" id="w4t-mN-xaf"/>
                             <constraint firstItem="n0i-AW-kOY" firstAttribute="leading" secondItem="WhX-Xm-HMy" secondAttribute="trailing" constant="5" id="wSh-1z-JmP"/>
+                            <constraint firstItem="Wtq-qY-paL" firstAttribute="bottom" secondItem="wn3-2g-97I" secondAttribute="bottom" constant="5" id="wca-yD-VwS"/>
+                            <constraint firstItem="arR-tC-6Nh" firstAttribute="height" secondItem="iKV-yP-eGS" secondAttribute="height" id="x6J-1q-7dv"/>
                             <constraint firstItem="ME5-Bd-vZB" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="xi4-aJ-rkt"/>
-                            <constraint firstItem="DXE-Tp-28b" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="16" id="y84-RZ-df5"/>
+                            <constraint firstItem="uP1-ID-1A1" firstAttribute="top" secondItem="arR-tC-6Nh" secondAttribute="bottom" constant="5" id="xzj-fb-lLg"/>
+                            <constraint firstItem="DXE-Tp-28b" firstAttribute="leading" secondItem="Wtq-qY-paL" secondAttribute="leading" constant="5" id="y84-RZ-df5"/>
+                            <constraint firstItem="GlF-Gd-nRu" firstAttribute="width" secondItem="iKV-yP-eGS" secondAttribute="width" id="yKj-ki-BCu"/>
                             <constraint firstItem="s6I-zh-qnf" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="yRZ-xH-msF"/>
                             <constraint firstItem="7hY-EF-SUI" firstAttribute="height" secondItem="wMq-Ud-shD" secondAttribute="height" id="yzm-3N-ScM"/>
                             <constraint firstItem="qwD-Nd-6rQ" firstAttribute="width" secondItem="wMq-Ud-shD" secondAttribute="width" id="z7h-Go-WzF"/>
                             <constraint firstItem="YpP-v7-VKO" firstAttribute="top" secondItem="WhX-Xm-HMy" secondAttribute="bottom" constant="5" id="zxw-MB-VPO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Wtq-qY-paL"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="bAU-Tp-ELa"/>
+                                <exclude reference="wn3-2g-97I"/>
+                                <exclude reference="q3y-av-KkL"/>
+                                <exclude reference="iKV-yP-eGS"/>
+                                <exclude reference="iX6-g0-Yyo"/>
+                                <exclude reference="Clb-1e-nJL"/>
+                                <exclude reference="GlF-Gd-nRu"/>
+                                <exclude reference="ckr-0C-m0P"/>
+                                <exclude reference="bNh-zV-Hds"/>
+                                <exclude reference="X2Z-g5-lGk"/>
+                                <exclude reference="uP1-ID-1A1"/>
+                                <exclude reference="kdH-hV-hkB"/>
+                                <exclude reference="RRU-56-Jeh"/>
+                                <exclude reference="iAy-Sa-JkF"/>
+                                <exclude reference="arR-tC-6Nh"/>
+                                <exclude reference="i8Y-rj-rUR"/>
+                                <exclude reference="IF7-N9-8BO"/>
+                                <exclude reference="MiG-pk-0vw"/>
+                                <exclude reference="JHt-k0-bLR"/>
+                                <exclude reference="W5Y-10-bH2"/>
+                                <exclude reference="JZO-6g-1EC"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="9gd-s4-Of5"/>
+                                <exclude reference="G8z-Za-UXF"/>
+                                <exclude reference="KOE-8c-M4c"/>
+                                <exclude reference="LSC-oF-1hf"/>
+                                <exclude reference="b8k-XE-UBJ"/>
+                                <exclude reference="eGM-iA-yT0"/>
+                                <exclude reference="h6X-eE-Eon"/>
+                                <exclude reference="qNQ-qH-5gF"/>
+                                <exclude reference="wca-yD-VwS"/>
+                                <exclude reference="4QP-El-UZ9"/>
+                                <exclude reference="M4j-o0-6Ss"/>
+                                <exclude reference="9Hy-LR-3cY"/>
+                                <exclude reference="Jcb-b3-mgd"/>
+                                <exclude reference="2dD-2F-vSS"/>
+                                <exclude reference="Et2-xd-dxd"/>
+                                <exclude reference="FrD-Tf-keh"/>
+                                <exclude reference="Mu8-xR-5cw"/>
+                                <exclude reference="5vx-oy-X9y"/>
+                                <exclude reference="693-xS-Ovi"/>
+                                <exclude reference="UIt-WK-e3v"/>
+                                <exclude reference="yKj-ki-BCu"/>
+                                <exclude reference="3VD-FH-SKK"/>
+                                <exclude reference="EZV-ig-yca"/>
+                                <exclude reference="IAg-Ik-4BC"/>
+                                <exclude reference="jkJ-z1-ckS"/>
+                                <exclude reference="GK3-8D-D9O"/>
+                                <exclude reference="ajP-4I-eRM"/>
+                                <exclude reference="gEv-73-gMP"/>
+                                <exclude reference="p5D-Nh-a4G"/>
+                                <exclude reference="Zmx-tQ-PUr"/>
+                                <exclude reference="a1J-Pw-KlA"/>
+                                <exclude reference="at9-tW-vI8"/>
+                                <exclude reference="gFm-x9-UFV"/>
+                                <exclude reference="4kN-Kr-xE5"/>
+                                <exclude reference="Uzp-N8-if5"/>
+                                <exclude reference="oOb-V7-Y2G"/>
+                                <exclude reference="tz2-Jn-uo4"/>
+                                <exclude reference="3vC-UO-0WK"/>
+                                <exclude reference="TLf-Mz-naj"/>
+                                <exclude reference="paM-dg-Z49"/>
+                                <exclude reference="sUe-zw-61R"/>
+                                <exclude reference="1Sw-lX-QP7"/>
+                                <exclude reference="WBD-33-N8e"/>
+                                <exclude reference="idd-3J-nYo"/>
+                                <exclude reference="j7e-Xq-9Ge"/>
+                                <exclude reference="CC2-8x-6hc"/>
+                                <exclude reference="hhr-Hv-Fav"/>
+                                <exclude reference="jeX-ZH-TdP"/>
+                                <exclude reference="onU-gW-iwN"/>
+                                <exclude reference="Oso-H9-kIK"/>
+                                <exclude reference="UCw-tU-ain"/>
+                                <exclude reference="a0u-K0-lW7"/>
+                                <exclude reference="qkO-oM-W7f"/>
+                                <exclude reference="4In-ie-7vw"/>
+                                <exclude reference="8tB-iF-jZT"/>
+                                <exclude reference="K4P-mZ-0Qg"/>
+                                <exclude reference="x6J-1q-7dv"/>
+                                <exclude reference="ODG-1i-YN4"/>
+                                <exclude reference="TQN-zq-ebT"/>
+                                <exclude reference="WRe-2M-lej"/>
+                                <exclude reference="qE5-md-yHz"/>
+                                <exclude reference="Icc-yR-98u"/>
+                                <exclude reference="TFf-GL-Znz"/>
+                                <exclude reference="iV9-cb-a5R"/>
+                                <exclude reference="xzj-fb-lLg"/>
+                                <exclude reference="B2Q-yE-jYW"/>
+                                <exclude reference="H4h-bI-DSA"/>
+                                <exclude reference="Xd6-Qv-xqf"/>
+                                <exclude reference="iyB-WM-bGO"/>
+                                <exclude reference="CxT-kY-mKf"/>
+                                <exclude reference="MOX-u6-RZa"/>
+                                <exclude reference="PT2-PC-XDi"/>
+                                <exclude reference="YGe-HO-6XS"/>
+                                <exclude reference="2Q2-d0-odv"/>
+                                <exclude reference="g3V-Hw-YgU"/>
+                                <exclude reference="hqp-f6-oSp"/>
+                                <exclude reference="i8M-ZN-YFA"/>
+                                <exclude reference="CIZ-zP-Vff"/>
+                                <exclude reference="KZu-KL-ZVF"/>
+                                <exclude reference="Uz1-8c-yKP"/>
+                                <exclude reference="dD4-9r-qhl"/>
+                                <exclude reference="Cwh-QY-Hfc"/>
+                                <exclude reference="DpH-Bp-hEZ"/>
+                                <exclude reference="OyO-UP-z8Q"/>
+                                <exclude reference="k63-84-9rP"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="QGO-BI-l6U"/>
+                                <exclude reference="DXE-Tp-28b"/>
+                                <exclude reference="Ih2-p4-6XE"/>
+                                <exclude reference="y5Z-MJ-sCi"/>
+                                <exclude reference="ME5-Bd-vZB"/>
+                                <exclude reference="7hY-EF-SUI"/>
+                                <exclude reference="wMq-Ud-shD"/>
+                                <exclude reference="qwD-Nd-6rQ"/>
+                                <exclude reference="YpP-v7-VKO"/>
+                                <exclude reference="WhX-Xm-HMy"/>
+                                <exclude reference="s6I-zh-qnf"/>
+                                <exclude reference="m6H-6A-Oos"/>
+                                <exclude reference="L3Z-Og-jg3"/>
+                                <exclude reference="H3Q-6e-ysI"/>
+                                <exclude reference="hZ5-XI-njt"/>
+                                <exclude reference="n0i-AW-kOY"/>
+                                <exclude reference="zh3-4f-UGb"/>
+                                <exclude reference="MCW-3B-N5O"/>
+                                <exclude reference="lJK-Wp-Cvu"/>
+                                <exclude reference="IQH-R4-SXo"/>
+                                <include reference="bAU-Tp-ELa"/>
+                                <include reference="wn3-2g-97I"/>
+                                <exclude reference="q3y-av-KkL"/>
+                                <include reference="iKV-yP-eGS"/>
+                                <include reference="iX6-g0-Yyo"/>
+                                <include reference="Clb-1e-nJL"/>
+                                <include reference="GlF-Gd-nRu"/>
+                                <include reference="ckr-0C-m0P"/>
+                                <include reference="bNh-zV-Hds"/>
+                                <include reference="X2Z-g5-lGk"/>
+                                <include reference="uP1-ID-1A1"/>
+                                <include reference="kdH-hV-hkB"/>
+                                <include reference="RRU-56-Jeh"/>
+                                <include reference="iAy-Sa-JkF"/>
+                                <include reference="arR-tC-6Nh"/>
+                                <include reference="i8Y-rj-rUR"/>
+                                <include reference="IF7-N9-8BO"/>
+                                <include reference="MiG-pk-0vw"/>
+                                <include reference="JHt-k0-bLR"/>
+                                <include reference="W5Y-10-bH2"/>
+                                <include reference="JZO-6g-1EC"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="9gd-s4-Of5"/>
+                                <include reference="G8z-Za-UXF"/>
+                                <include reference="KOE-8c-M4c"/>
+                                <include reference="LSC-oF-1hf"/>
+                                <include reference="b8k-XE-UBJ"/>
+                                <include reference="eGM-iA-yT0"/>
+                                <include reference="h6X-eE-Eon"/>
+                                <include reference="qNQ-qH-5gF"/>
+                                <include reference="wca-yD-VwS"/>
+                                <include reference="4QP-El-UZ9"/>
+                                <include reference="M4j-o0-6Ss"/>
+                                <include reference="9Hy-LR-3cY"/>
+                                <include reference="Jcb-b3-mgd"/>
+                                <include reference="2dD-2F-vSS"/>
+                                <include reference="Et2-xd-dxd"/>
+                                <include reference="FrD-Tf-keh"/>
+                                <include reference="Mu8-xR-5cw"/>
+                                <include reference="5vx-oy-X9y"/>
+                                <include reference="693-xS-Ovi"/>
+                                <include reference="UIt-WK-e3v"/>
+                                <include reference="yKj-ki-BCu"/>
+                                <include reference="3VD-FH-SKK"/>
+                                <include reference="EZV-ig-yca"/>
+                                <include reference="IAg-Ik-4BC"/>
+                                <include reference="jkJ-z1-ckS"/>
+                                <include reference="GK3-8D-D9O"/>
+                                <include reference="ajP-4I-eRM"/>
+                                <include reference="gEv-73-gMP"/>
+                                <include reference="p5D-Nh-a4G"/>
+                                <include reference="Zmx-tQ-PUr"/>
+                                <include reference="a1J-Pw-KlA"/>
+                                <include reference="at9-tW-vI8"/>
+                                <include reference="gFm-x9-UFV"/>
+                                <include reference="4kN-Kr-xE5"/>
+                                <include reference="Uzp-N8-if5"/>
+                                <include reference="oOb-V7-Y2G"/>
+                                <include reference="tz2-Jn-uo4"/>
+                                <include reference="3vC-UO-0WK"/>
+                                <include reference="TLf-Mz-naj"/>
+                                <include reference="paM-dg-Z49"/>
+                                <include reference="sUe-zw-61R"/>
+                                <include reference="1Sw-lX-QP7"/>
+                                <include reference="WBD-33-N8e"/>
+                                <include reference="idd-3J-nYo"/>
+                                <include reference="j7e-Xq-9Ge"/>
+                                <include reference="CC2-8x-6hc"/>
+                                <include reference="hhr-Hv-Fav"/>
+                                <include reference="jeX-ZH-TdP"/>
+                                <include reference="onU-gW-iwN"/>
+                                <include reference="Oso-H9-kIK"/>
+                                <include reference="UCw-tU-ain"/>
+                                <include reference="a0u-K0-lW7"/>
+                                <include reference="qkO-oM-W7f"/>
+                                <include reference="4In-ie-7vw"/>
+                                <include reference="8tB-iF-jZT"/>
+                                <include reference="K4P-mZ-0Qg"/>
+                                <include reference="x6J-1q-7dv"/>
+                                <include reference="ODG-1i-YN4"/>
+                                <include reference="TQN-zq-ebT"/>
+                                <include reference="WRe-2M-lej"/>
+                                <include reference="qE5-md-yHz"/>
+                                <include reference="Icc-yR-98u"/>
+                                <include reference="TFf-GL-Znz"/>
+                                <include reference="iV9-cb-a5R"/>
+                                <include reference="xzj-fb-lLg"/>
+                                <include reference="B2Q-yE-jYW"/>
+                                <include reference="H4h-bI-DSA"/>
+                                <include reference="Xd6-Qv-xqf"/>
+                                <include reference="iyB-WM-bGO"/>
+                                <include reference="CxT-kY-mKf"/>
+                                <include reference="MOX-u6-RZa"/>
+                                <include reference="PT2-PC-XDi"/>
+                                <include reference="YGe-HO-6XS"/>
+                                <include reference="2Q2-d0-odv"/>
+                                <include reference="g3V-Hw-YgU"/>
+                                <include reference="hqp-f6-oSp"/>
+                                <include reference="i8M-ZN-YFA"/>
+                                <include reference="CIZ-zP-Vff"/>
+                                <include reference="KZu-KL-ZVF"/>
+                                <include reference="Uz1-8c-yKP"/>
+                                <include reference="dD4-9r-qhl"/>
+                                <include reference="Cwh-QY-Hfc"/>
+                                <include reference="DpH-Bp-hEZ"/>
+                                <include reference="OyO-UP-z8Q"/>
+                                <include reference="k63-84-9rP"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Basic Calculator" id="SHB-s7-Jyb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NEG-YP-xgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="352.80000000000001" y="-1121.2893553223389"/>
+            <point key="canvasLocation" x="352.17391304347831" y="-1122.4000000000001"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="xeW-Jl-5AJ">
