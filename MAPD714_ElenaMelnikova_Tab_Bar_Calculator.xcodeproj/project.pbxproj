@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00EC6D02177D25200DF4EF2 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C00EC6CD2177D25200DF4EF2 /* singleicon.png */; };
+		C00EC6D22177D28B00DF4EF2 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C00EC6D12177D28B00DF4EF2 /* doubleicon.png */; };
+		C00EC6D52177D2A700DF4EF2 /* doubleicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C00EC6D32177D2A700DF4EF2 /* doubleicon@2x.png */; };
+		C00EC6D62177D2A700DF4EF2 /* doubleicon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C00EC6D42177D2A700DF4EF2 /* doubleicon@3x.png */; };
+		C00EC6D92177D2C900DF4EF2 /* singleicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C00EC6D72177D2C900DF4EF2 /* singleicon@2x.png */; };
+		C00EC6DA2177D2C900DF4EF2 /* singleicon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C00EC6D82177D2C900DF4EF2 /* singleicon@3x.png */; };
+		C00EC6DD2177D2EF00DF4EF2 /* toolicon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C00EC6DB2177D2EF00DF4EF2 /* toolicon@3x.png */; };
+		C00EC6DE2177D2EF00DF4EF2 /* toolicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C00EC6DC2177D2EF00DF4EF2 /* toolicon@2x.png */; };
 		C00FB68921765D8C0002F92F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FB68821765D8C0002F92F /* AppDelegate.swift */; };
 		C00FB68E21765D8C0002F92F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00FB68C21765D8C0002F92F /* Main.storyboard */; };
 		C00FB69021765D8D0002F92F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00FB68F21765D8D0002F92F /* Assets.xcassets */; };
@@ -15,9 +23,20 @@
 		C00FB69D21765EBB0002F92F /* BasicCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FB69C21765EBB0002F92F /* BasicCalculatorViewController.swift */; };
 		C00FB69F21765ECF0002F92F /* ScientificCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FB69E21765ECF0002F92F /* ScientificCalculatorViewController.swift */; };
 		C00FB6A121765EDF0002F92F /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FB6A021765EDF0002F92F /* OptionsViewController.swift */; };
+		C0F5A5AD2177AE1400DDF9AE /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F5A5AA2177AE1400DDF9AE /* toolicon.png */; };
+		C0F5A5B02177B06100DDF9AE /* UILabelPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5A5AF2177B06100DDF9AE /* UILabelPadding.swift */; };
+		C0F5A5B22177B47A00DDF9AE /* Splash_image.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F5A5B12177B47A00DDF9AE /* Splash_image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C00EC6CD2177D25200DF4EF2 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = singleicon.png; path = "../../Projects/[apress]_Beginning_iPhone_Development_with_Swift_4_Exploring_the_iOS_SDK/beg-iphone-dev-w-swift-4-master/ch07_source/07 - ImageSets/singleicon.imageset/singleicon.png"; sourceTree = "<group>"; };
+		C00EC6D12177D28B00DF4EF2 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doubleicon.png; path = "../../Projects/[apress]_Beginning_iPhone_Development_with_Swift_4_Exploring_the_iOS_SDK/beg-iphone-dev-w-swift-4-master/ch07_source/07 - ImageSets/doubleicon.imageset/doubleicon.png"; sourceTree = "<group>"; };
+		C00EC6D32177D2A700DF4EF2 /* doubleicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "doubleicon@2x.png"; path = "../../Projects/[apress]_Beginning_iPhone_Development_with_Swift_4_Exploring_the_iOS_SDK/beg-iphone-dev-w-swift-4-master/ch07_source/07 - ImageSets/doubleicon.imageset/doubleicon@2x.png"; sourceTree = "<group>"; };
+		C00EC6D42177D2A700DF4EF2 /* doubleicon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "doubleicon@3x.png"; path = "../../Projects/[apress]_Beginning_iPhone_Development_with_Swift_4_Exploring_the_iOS_SDK/beg-iphone-dev-w-swift-4-master/ch07_source/07 - ImageSets/doubleicon.imageset/doubleicon@3x.png"; sourceTree = "<group>"; };
+		C00EC6D72177D2C900DF4EF2 /* singleicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "singleicon@2x.png"; path = "../../Projects/[apress]_Beginning_iPhone_Development_with_Swift_4_Exploring_the_iOS_SDK/beg-iphone-dev-w-swift-4-master/ch07_source/07 - ImageSets/singleicon.imageset/singleicon@2x.png"; sourceTree = "<group>"; };
+		C00EC6D82177D2C900DF4EF2 /* singleicon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "singleicon@3x.png"; path = "../../Projects/[apress]_Beginning_iPhone_Development_with_Swift_4_Exploring_the_iOS_SDK/beg-iphone-dev-w-swift-4-master/ch07_source/07 - ImageSets/singleicon.imageset/singleicon@3x.png"; sourceTree = "<group>"; };
+		C00EC6DB2177D2EF00DF4EF2 /* toolicon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolicon@3x.png"; path = "../../Projects/[apress]_Beginning_iPhone_Development_with_Swift_4_Exploring_the_iOS_SDK/beg-iphone-dev-w-swift-4-master/ch07_source/07 - ImageSets/toolicon.imageset/toolicon@3x.png"; sourceTree = "<group>"; };
+		C00EC6DC2177D2EF00DF4EF2 /* toolicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolicon@2x.png"; path = "../../Projects/[apress]_Beginning_iPhone_Development_with_Swift_4_Exploring_the_iOS_SDK/beg-iphone-dev-w-swift-4-master/ch07_source/07 - ImageSets/toolicon.imageset/toolicon@2x.png"; sourceTree = "<group>"; };
 		C00FB68521765D8C0002F92F /* MAPD714_ElenaMelnikova_Tab_Bar_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAPD714_ElenaMelnikova_Tab_Bar_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00FB68821765D8C0002F92F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C00FB68D21765D8C0002F92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,6 +47,9 @@
 		C00FB69C21765EBB0002F92F /* BasicCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCalculatorViewController.swift; sourceTree = "<group>"; };
 		C00FB69E21765ECF0002F92F /* ScientificCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScientificCalculatorViewController.swift; sourceTree = "<group>"; };
 		C00FB6A021765EDF0002F92F /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		C0F5A5AA2177AE1400DDF9AE /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = SOURCE_ROOT; };
+		C0F5A5AF2177B06100DDF9AE /* UILabelPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelPadding.swift; sourceTree = "<group>"; };
+		C0F5A5B12177B47A00DDF9AE /* Splash_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Splash_image.png; path = ../../Splash_image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +85,23 @@
 				C00FB68821765D8C0002F92F /* AppDelegate.swift */,
 				C00FB68C21765D8C0002F92F /* Main.storyboard */,
 				C00FB68F21765D8D0002F92F /* Assets.xcassets */,
+				C0F5A5B12177B47A00DDF9AE /* Splash_image.png */,
+				C00EC6CD2177D25200DF4EF2 /* singleicon.png */,
+				C00EC6D72177D2C900DF4EF2 /* singleicon@2x.png */,
+				C00EC6D82177D2C900DF4EF2 /* singleicon@3x.png */,
+				C00EC6D12177D28B00DF4EF2 /* doubleicon.png */,
+				C00EC6D32177D2A700DF4EF2 /* doubleicon@2x.png */,
+				C00EC6D42177D2A700DF4EF2 /* doubleicon@3x.png */,
+				C0F5A5AA2177AE1400DDF9AE /* toolicon.png */,
+				C00EC6DC2177D2EF00DF4EF2 /* toolicon@2x.png */,
+				C00EC6DB2177D2EF00DF4EF2 /* toolicon@3x.png */,
 				C00FB69121765D8D0002F92F /* LaunchScreen.storyboard */,
 				C00FB69421765D8D0002F92F /* Info.plist */,
 				C00FB69A21765EA60002F92F /* TabBarViewController.swift */,
 				C00FB69C21765EBB0002F92F /* BasicCalculatorViewController.swift */,
 				C00FB69E21765ECF0002F92F /* ScientificCalculatorViewController.swift */,
 				C00FB6A021765EDF0002F92F /* OptionsViewController.swift */,
+				C0F5A5AF2177B06100DDF9AE /* UILabelPadding.swift */,
 			);
 			path = MAPD714_ElenaMelnikova_Tab_Bar_Calculator;
 			sourceTree = "<group>";
@@ -131,9 +164,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C00EC6D22177D28B00DF4EF2 /* doubleicon.png in Resources */,
+				C0F5A5B22177B47A00DDF9AE /* Splash_image.png in Resources */,
+				C00EC6D52177D2A700DF4EF2 /* doubleicon@2x.png in Resources */,
+				C00EC6D02177D25200DF4EF2 /* singleicon.png in Resources */,
 				C00FB69321765D8D0002F92F /* LaunchScreen.storyboard in Resources */,
+				C0F5A5AD2177AE1400DDF9AE /* toolicon.png in Resources */,
 				C00FB69021765D8D0002F92F /* Assets.xcassets in Resources */,
+				C00EC6D62177D2A700DF4EF2 /* doubleicon@3x.png in Resources */,
+				C00EC6DD2177D2EF00DF4EF2 /* toolicon@3x.png in Resources */,
+				C00EC6DA2177D2C900DF4EF2 /* singleicon@3x.png in Resources */,
 				C00FB68E21765D8C0002F92F /* Main.storyboard in Resources */,
+				C00EC6D92177D2C900DF4EF2 /* singleicon@2x.png in Resources */,
+				C00EC6DE2177D2EF00DF4EF2 /* toolicon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F5A5B02177B06100DDF9AE /* UILabelPadding.swift in Sources */,
 				C00FB69B21765EA60002F92F /* TabBarViewController.swift in Sources */,
 				C00FB69F21765ECF0002F92F /* ScientificCalculatorViewController.swift in Sources */,
 				C00FB68921765D8C0002F92F /* AppDelegate.swift in Sources */,

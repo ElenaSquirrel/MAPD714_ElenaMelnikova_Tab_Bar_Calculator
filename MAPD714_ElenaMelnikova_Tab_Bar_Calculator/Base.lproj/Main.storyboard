@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lza-le-8Xb">
-    <device id="retina4_7" orientation="landscape">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,7 +16,7 @@
             <objects>
                 <viewController title="Scientific Calculator View Controller" id="FNE-sC-Pht" customClass="ScientificCalculatorViewController" customModule="MAPD714_ElenaMelnikova_Tab_Bar_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yC1-H4-WSh">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wq9-Ad-mLe">
@@ -325,8 +325,8 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVn-Ee-pwq">
-                                <rect key="frame" x="5" y="5" width="657" height="150"/>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="19" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVn-Ee-pwq" customClass="UILabelPadding" customModule="MAPD714_ElenaMelnikova_Tab_Bar_Calculator" customModuleProvider="target">
+                                <rect key="frame" x="5" y="25" width="365" height="150"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="Xs9-kc-Nfm"/>
@@ -335,205 +335,277 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDj-JN-lRU">
-                                <rect key="frame" x="5" y="82.5" width="127.5" height="47"/>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDj-JN-lRU">
+                                <rect key="frame" x="5" y="180" width="69" height="82.5"/>
                                 <color key="backgroundColor" red="0.16272291489999999" green="0.58597797929999995" blue="0.22003547609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="C">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="I6M-sP-qkg"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdL-V4-Day">
-                                <rect key="frame" x="270" y="134.5" width="127" height="47"/>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdL-V4-Day">
+                                <rect key="frame" x="153" y="267.5" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="8">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="n4a-Gg-8se"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZkK-Nq-lDG">
-                                <rect key="frame" x="402" y="134.5" width="127.5" height="47"/>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZkK-Nq-lDG">
+                                <rect key="frame" x="227" y="267.5" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="9">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="DmH-Ze-7Rw"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9a-z9-Fih">
-                                <rect key="frame" x="270" y="82.5" width="127" height="47"/>
+                            <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9a-z9-Fih">
+                                <rect key="frame" x="153" y="180" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="x^3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="sxW-3E-E8v"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6t-3I-gBd">
-                                <rect key="frame" x="534.5" y="82.5" width="127.5" height="47"/>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6t-3I-gBd">
+                                <rect key="frame" x="301" y="180" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="/">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="2in-om-AEO"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVG-Gd-mS4">
-                                <rect key="frame" x="137.5" y="82.5" width="127.5" height="47"/>
+                            <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVG-Gd-mS4">
+                                <rect key="frame" x="79" y="180" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="x^2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="7wh-vr-NNe"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U19-sa-0ca">
-                                <rect key="frame" x="402" y="186.5" width="127.5" height="47.5"/>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U19-sa-0ca">
+                                <rect key="frame" x="227" y="355" width="69" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="l9h-1D-EoE"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Sz-pQ-iEp">
-                                <rect key="frame" x="137.5" y="134.5" width="127.5" height="47"/>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Sz-pQ-iEp">
+                                <rect key="frame" x="79" y="267.5" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="7">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="cKF-Ry-Faj"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yf0-ao-eli">
-                                <rect key="frame" x="402" y="82.5" width="127.5" height="47"/>
+                            <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yf0-ao-eli">
+                                <rect key="frame" x="227" y="180" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="10^x">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="hJT-Du-BG0"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n03-YL-IE4">
-                                <rect key="frame" x="534.5" y="134.5" width="127.5" height="47"/>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n03-YL-IE4">
+                                <rect key="frame" x="301" y="267.5" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="x">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="qdo-z9-9pD"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uri-Jg-doG">
-                                <rect key="frame" x="5" y="239" width="127.5" height="47"/>
+                            <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uri-Jg-doG">
+                                <rect key="frame" x="5" y="443" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="cos">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="WnB-nU-fBa"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glh-n0-ivp">
-                                <rect key="frame" x="137.5" y="186.5" width="127.5" height="47.5"/>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glh-n0-ivp">
+                                <rect key="frame" x="79" y="355" width="69" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="4">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="J4n-ub-A5Q"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykp-me-tz1">
-                                <rect key="frame" x="270" y="186.5" width="127" height="47.5"/>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykp-me-tz1">
+                                <rect key="frame" x="153" y="355" width="69" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="PYK-L7-Zyk"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcL-mH-dH5">
-                                <rect key="frame" x="5" y="134.5" width="127.5" height="47"/>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcL-mH-dH5">
+                                <rect key="frame" x="5" y="267.5" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="√">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="RIm-CP-y3d"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2p6-I3-CnL">
-                                <rect key="frame" x="534.5" y="186.5" width="127.5" height="47.5"/>
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2p6-I3-CnL">
+                                <rect key="frame" x="301" y="355" width="69" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="-">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="nkh-rm-hYg"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WmR-gf-DqP">
-                                <rect key="frame" x="270" y="239" width="127" height="47"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WmR-gf-DqP">
+                                <rect key="frame" x="153" y="443" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="r4D-UN-YQg"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIq-ig-duo">
-                                <rect key="frame" x="402" y="239" width="127.5" height="47"/>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIq-ig-duo">
+                                <rect key="frame" x="227" y="443" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="PjX-0G-Jma"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbl-Td-gpP">
-                                <rect key="frame" x="270" y="291" width="127" height="47"/>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbl-Td-gpP">
+                                <rect key="frame" x="153" y="530.5" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="+/-">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHB-kc-gdq">
-                                <rect key="frame" x="534.5" y="239" width="127.5" height="47"/>
+                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHB-kc-gdq">
+                                <rect key="frame" x="301" y="443" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="+">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="Vrm-E4-kgx"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xf6-cS-pXk">
-                                <rect key="frame" x="5" y="291" width="127.5" height="47"/>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xf6-cS-pXk">
+                                <rect key="frame" x="5" y="530.5" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="tan">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="y90-e0-tPB"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="893-Ye-Rbm">
-                                <rect key="frame" x="137.5" y="291" width="127.5" height="47"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="893-Ye-Rbm">
+                                <rect key="frame" x="79" y="530.5" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="6nT-uZ-6mQ"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4U-fl-rOm">
-                                <rect key="frame" x="137.5" y="239" width="127.5" height="47"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4U-fl-rOm">
+                                <rect key="frame" x="79" y="443" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="fJ9-yR-ZuX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLz-7r-mZt">
-                                <rect key="frame" x="402" y="291" width="127.5" height="47"/>
+                                <rect key="frame" x="227" y="530.5" width="69" height="82.5"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title=".">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="t4H-6c-OHV"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nh6-D8-gAI">
-                                <rect key="frame" x="534.5" y="291" width="127.5" height="47"/>
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nh6-D8-gAI">
+                                <rect key="frame" x="301" y="530.5" width="69" height="82.5"/>
                                 <color key="backgroundColor" red="0.16272291489999999" green="0.58597797929999995" blue="0.22003547609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="=">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="eX5-c2-wMQ"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nny-Ip-Fzh">
-                                <rect key="frame" x="5" y="186.5" width="127.5" height="47.5"/>
+                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nny-Ip-Fzh">
+                                <rect key="frame" x="5" y="355" width="69" height="83"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="sin">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="ZXC-fO-TFi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2PI-Y6-MhR">
                                 <rect key="frame" x="478" y="226.5" width="89.5" height="53"/>
@@ -1052,18 +1124,6 @@
                                 <exclude reference="cdx-YT-r0K"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="1gg-5U-9Hu"/>
-                                <exclude reference="2AF-NI-IcS"/>
-                                <exclude reference="2UV-Q2-mxR"/>
-                                <exclude reference="EOx-lf-bXf"/>
-                                <exclude reference="ETs-TO-Gv2"/>
-                                <exclude reference="FSC-vg-NEs"/>
-                                <exclude reference="UyC-43-t1v"/>
-                                <exclude reference="avg-Ir-aQK"/>
-                                <exclude reference="gAf-Lw-XoP"/>
-                                <exclude reference="gGg-nV-MhR"/>
-                                <exclude reference="zL2-wY-bYs"/>
-                                <exclude reference="zpA-nN-bCE"/>
                                 <exclude reference="M2w-Lf-JsG"/>
                                 <exclude reference="MH1-Lk-XR7"/>
                                 <exclude reference="NHD-Q4-T5g"/>
@@ -1115,6 +1175,15 @@
                                 <exclude reference="Wbv-m5-Let"/>
                                 <exclude reference="pHl-Tk-cAg"/>
                                 <exclude reference="qGP-S8-d6r"/>
+                                <exclude reference="4Nn-j7-OWu"/>
+                                <exclude reference="6aS-Pa-jMP"/>
+                                <exclude reference="CZS-mR-JVW"/>
+                                <exclude reference="R4F-gj-g7o"/>
+                                <exclude reference="guM-LF-yyU"/>
+                                <exclude reference="hQF-Qj-LKX"/>
+                                <exclude reference="mmg-fg-Q5E"/>
+                                <exclude reference="rZ3-C1-KyW"/>
+                                <exclude reference="yma-hK-WPl"/>
                                 <exclude reference="CcU-24-rYj"/>
                                 <exclude reference="FPs-bX-Qpo"/>
                                 <exclude reference="Hf3-jl-Pq5"/>
@@ -1127,15 +1196,6 @@
                                 <exclude reference="qCc-FI-PYi"/>
                                 <exclude reference="sgW-fZ-Wge"/>
                                 <exclude reference="zDb-ZE-EMe"/>
-                                <exclude reference="4Nn-j7-OWu"/>
-                                <exclude reference="6aS-Pa-jMP"/>
-                                <exclude reference="CZS-mR-JVW"/>
-                                <exclude reference="R4F-gj-g7o"/>
-                                <exclude reference="guM-LF-yyU"/>
-                                <exclude reference="hQF-Qj-LKX"/>
-                                <exclude reference="mmg-fg-Q5E"/>
-                                <exclude reference="rZ3-C1-KyW"/>
-                                <exclude reference="yma-hK-WPl"/>
                                 <exclude reference="95T-pK-gxg"/>
                                 <exclude reference="CWD-v5-7zA"/>
                                 <exclude reference="Kcd-Q2-6Vn"/>
@@ -1156,6 +1216,14 @@
                                 <exclude reference="nv7-Zm-aXq"/>
                                 <exclude reference="q7p-YG-8bQ"/>
                                 <exclude reference="yGd-18-JFs"/>
+                                <exclude reference="Cjg-FZ-DEx"/>
+                                <exclude reference="Fzg-to-I1F"/>
+                                <exclude reference="L6A-hH-lxO"/>
+                                <exclude reference="O5K-ML-HOJ"/>
+                                <exclude reference="TYr-73-jXo"/>
+                                <exclude reference="WUp-Wf-NWi"/>
+                                <exclude reference="lfb-1q-lFJ"/>
+                                <exclude reference="wuw-fh-5ce"/>
                                 <exclude reference="0OC-C2-Ijd"/>
                                 <exclude reference="48C-Jz-KNN"/>
                                 <exclude reference="RvC-aV-X1f"/>
@@ -1166,23 +1234,6 @@
                                 <exclude reference="nN6-uV-iQL"/>
                                 <exclude reference="quJ-Ya-mTx"/>
                                 <exclude reference="zaK-wh-oM7"/>
-                                <exclude reference="2zT-Ox-Yd6"/>
-                                <exclude reference="5Xj-WU-y87"/>
-                                <exclude reference="63u-r8-jKT"/>
-                                <exclude reference="Hfu-K0-bT1"/>
-                                <exclude reference="LcX-vm-JLU"/>
-                                <exclude reference="NmR-TB-vby"/>
-                                <exclude reference="cUL-39-iv1"/>
-                                <exclude reference="dJR-Iw-jPe"/>
-                                <exclude reference="oL1-9e-YLg"/>
-                                <exclude reference="Cjg-FZ-DEx"/>
-                                <exclude reference="Fzg-to-I1F"/>
-                                <exclude reference="L6A-hH-lxO"/>
-                                <exclude reference="O5K-ML-HOJ"/>
-                                <exclude reference="TYr-73-jXo"/>
-                                <exclude reference="WUp-Wf-NWi"/>
-                                <exclude reference="lfb-1q-lFJ"/>
-                                <exclude reference="wuw-fh-5ce"/>
                                 <exclude reference="60x-G9-nZo"/>
                                 <exclude reference="8CO-gB-LX2"/>
                                 <exclude reference="JcN-vu-R13"/>
@@ -1190,6 +1241,44 @@
                                 <exclude reference="UPT-OA-pNv"/>
                                 <exclude reference="ese-v6-cFp"/>
                                 <exclude reference="uNu-RM-iqB"/>
+                                <exclude reference="2zT-Ox-Yd6"/>
+                                <exclude reference="5Xj-WU-y87"/>
+                                <exclude reference="63u-r8-jKT"/>
+                                <exclude reference="Hfu-K0-bT1"/>
+                                <exclude reference="1gg-5U-9Hu"/>
+                                <exclude reference="2AF-NI-IcS"/>
+                                <exclude reference="2UV-Q2-mxR"/>
+                                <exclude reference="EOx-lf-bXf"/>
+                                <exclude reference="ETs-TO-Gv2"/>
+                                <exclude reference="FSC-vg-NEs"/>
+                                <exclude reference="UyC-43-t1v"/>
+                                <exclude reference="avg-Ir-aQK"/>
+                                <exclude reference="gAf-Lw-XoP"/>
+                                <exclude reference="gGg-nV-MhR"/>
+                                <exclude reference="zL2-wY-bYs"/>
+                                <exclude reference="zpA-nN-bCE"/>
+                                <exclude reference="LcX-vm-JLU"/>
+                                <exclude reference="NmR-TB-vby"/>
+                                <exclude reference="cUL-39-iv1"/>
+                                <exclude reference="dJR-Iw-jPe"/>
+                                <exclude reference="oL1-9e-YLg"/>
+                                <exclude reference="Fx3-Mg-a3k"/>
+                                <exclude reference="L0H-yQ-XST"/>
+                                <exclude reference="cjT-Sn-IUy"/>
+                                <exclude reference="de6-2e-uV5"/>
+                                <exclude reference="lSW-gz-mBv"/>
+                                <exclude reference="rqY-l3-fGe"/>
+                                <exclude reference="unA-bH-PjW"/>
+                                <exclude reference="xta-gm-OfY"/>
+                                <exclude reference="3Gg-MF-j1a"/>
+                                <exclude reference="AzR-6a-XB0"/>
+                                <exclude reference="EIh-uj-Xmw"/>
+                                <exclude reference="GRv-UX-6bC"/>
+                                <exclude reference="eRI-Lc-eSR"/>
+                                <exclude reference="mzA-Ad-Kaq"/>
+                                <exclude reference="p4l-6b-rdK"/>
+                                <exclude reference="pBF-eJ-agv"/>
+                                <exclude reference="rwI-Ml-LRt"/>
                                 <exclude reference="3e2-MA-Eyw"/>
                                 <exclude reference="Ovj-8E-yB4"/>
                                 <exclude reference="Tfe-9u-pzN"/>
@@ -1200,24 +1289,17 @@
                                 <exclude reference="r6s-2q-AxD"/>
                                 <exclude reference="sZg-Ye-9nz"/>
                                 <exclude reference="ulc-Qq-g2Z"/>
-                                <exclude reference="3Gg-MF-j1a"/>
-                                <exclude reference="AzR-6a-XB0"/>
-                                <exclude reference="EIh-uj-Xmw"/>
-                                <exclude reference="GRv-UX-6bC"/>
-                                <exclude reference="eRI-Lc-eSR"/>
-                                <exclude reference="mzA-Ad-Kaq"/>
-                                <exclude reference="p4l-6b-rdK"/>
-                                <exclude reference="pBF-eJ-agv"/>
-                                <exclude reference="rwI-Ml-LRt"/>
-                                <exclude reference="Fx3-Mg-a3k"/>
-                                <exclude reference="L0H-yQ-XST"/>
-                                <exclude reference="cjT-Sn-IUy"/>
-                                <exclude reference="de6-2e-uV5"/>
-                                <exclude reference="lSW-gz-mBv"/>
-                                <exclude reference="rqY-l3-fGe"/>
-                                <exclude reference="unA-bH-PjW"/>
-                                <exclude reference="xta-gm-OfY"/>
                                 <exclude reference="9oa-5i-epW"/>
+                                <exclude reference="0gh-P4-6aE"/>
+                                <exclude reference="8YH-5L-OG1"/>
+                                <exclude reference="B8L-rM-WRt"/>
+                                <exclude reference="h0J-fZ-Jnh"/>
+                                <exclude reference="mfh-Pm-NDV"/>
+                                <exclude reference="sYJ-sQ-MkS"/>
+                                <exclude reference="sjO-do-Hv2"/>
+                                <exclude reference="f3t-1q-zzv"/>
+                                <exclude reference="iyX-fG-Bjq"/>
+                                <exclude reference="k6m-VD-MEB"/>
                                 <exclude reference="EkJ-Xj-txj"/>
                                 <exclude reference="Qtp-Fi-TpC"/>
                                 <exclude reference="TYx-B8-gD5"/>
@@ -1226,22 +1308,12 @@
                                 <exclude reference="ptf-gO-YYM"/>
                                 <exclude reference="wom-H0-RNL"/>
                                 <exclude reference="yic-Pl-6qM"/>
-                                <exclude reference="0gh-P4-6aE"/>
-                                <exclude reference="8YH-5L-OG1"/>
-                                <exclude reference="B8L-rM-WRt"/>
-                                <exclude reference="h0J-fZ-Jnh"/>
-                                <exclude reference="mfh-Pm-NDV"/>
-                                <exclude reference="sYJ-sQ-MkS"/>
-                                <exclude reference="sjO-do-Hv2"/>
                                 <exclude reference="6IK-6m-ujr"/>
                                 <exclude reference="7gS-Y6-4OX"/>
                                 <exclude reference="PME-IS-r4A"/>
                                 <exclude reference="Q11-7w-2dE"/>
                                 <exclude reference="Xlq-zz-mG3"/>
                                 <exclude reference="av4-a4-z84"/>
-                                <exclude reference="f3t-1q-zzv"/>
-                                <exclude reference="iyX-fG-Bjq"/>
-                                <exclude reference="k6m-VD-MEB"/>
                                 <exclude reference="6VX-gc-02F"/>
                                 <exclude reference="EgJ-tT-7XV"/>
                                 <exclude reference="MqE-li-ikP"/>
@@ -1251,6 +1323,11 @@
                                 <exclude reference="qXG-Jf-I8k"/>
                                 <exclude reference="r1x-Qo-T5W"/>
                                 <exclude reference="tdr-Jw-gh2"/>
+                                <exclude reference="1an-6k-IrL"/>
+                                <exclude reference="2ZS-m2-pM3"/>
+                                <exclude reference="YbR-ye-Pjy"/>
+                                <exclude reference="kAX-4A-gR4"/>
+                                <exclude reference="tDd-Kg-alY"/>
                                 <exclude reference="0y5-hE-l3l"/>
                                 <exclude reference="2sB-O6-TES"/>
                                 <exclude reference="C9P-Y2-s3B"/>
@@ -1261,11 +1338,6 @@
                                 <exclude reference="daV-dm-hK4"/>
                                 <exclude reference="ocK-EX-Zkv"/>
                                 <exclude reference="rex-WY-kuf"/>
-                                <exclude reference="1an-6k-IrL"/>
-                                <exclude reference="2ZS-m2-pM3"/>
-                                <exclude reference="YbR-ye-Pjy"/>
-                                <exclude reference="kAX-4A-gR4"/>
-                                <exclude reference="tDd-Kg-alY"/>
                                 <exclude reference="9IO-S5-9hh"/>
                                 <exclude reference="BJv-k5-BLh"/>
                                 <exclude reference="Jtp-Gj-3Ie"/>
@@ -1345,18 +1417,6 @@
                                 <include reference="cdx-YT-r0K"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="1gg-5U-9Hu"/>
-                                <include reference="2AF-NI-IcS"/>
-                                <exclude reference="2UV-Q2-mxR"/>
-                                <include reference="EOx-lf-bXf"/>
-                                <include reference="ETs-TO-Gv2"/>
-                                <exclude reference="FSC-vg-NEs"/>
-                                <exclude reference="UyC-43-t1v"/>
-                                <include reference="avg-Ir-aQK"/>
-                                <include reference="gAf-Lw-XoP"/>
-                                <include reference="gGg-nV-MhR"/>
-                                <include reference="zL2-wY-bYs"/>
-                                <include reference="zpA-nN-bCE"/>
                                 <exclude reference="M2w-Lf-JsG"/>
                                 <exclude reference="MH1-Lk-XR7"/>
                                 <include reference="NHD-Q4-T5g"/>
@@ -1408,6 +1468,15 @@
                                 <exclude reference="Wbv-m5-Let"/>
                                 <exclude reference="pHl-Tk-cAg"/>
                                 <include reference="qGP-S8-d6r"/>
+                                <include reference="4Nn-j7-OWu"/>
+                                <exclude reference="6aS-Pa-jMP"/>
+                                <include reference="CZS-mR-JVW"/>
+                                <include reference="R4F-gj-g7o"/>
+                                <include reference="guM-LF-yyU"/>
+                                <exclude reference="hQF-Qj-LKX"/>
+                                <include reference="mmg-fg-Q5E"/>
+                                <exclude reference="rZ3-C1-KyW"/>
+                                <exclude reference="yma-hK-WPl"/>
                                 <include reference="CcU-24-rYj"/>
                                 <include reference="FPs-bX-Qpo"/>
                                 <exclude reference="Hf3-jl-Pq5"/>
@@ -1420,15 +1489,6 @@
                                 <include reference="qCc-FI-PYi"/>
                                 <exclude reference="sgW-fZ-Wge"/>
                                 <include reference="zDb-ZE-EMe"/>
-                                <include reference="4Nn-j7-OWu"/>
-                                <exclude reference="6aS-Pa-jMP"/>
-                                <include reference="CZS-mR-JVW"/>
-                                <include reference="R4F-gj-g7o"/>
-                                <include reference="guM-LF-yyU"/>
-                                <exclude reference="hQF-Qj-LKX"/>
-                                <include reference="mmg-fg-Q5E"/>
-                                <exclude reference="rZ3-C1-KyW"/>
-                                <exclude reference="yma-hK-WPl"/>
                                 <include reference="95T-pK-gxg"/>
                                 <include reference="CWD-v5-7zA"/>
                                 <include reference="Kcd-Q2-6Vn"/>
@@ -1449,6 +1509,14 @@
                                 <exclude reference="nv7-Zm-aXq"/>
                                 <exclude reference="q7p-YG-8bQ"/>
                                 <exclude reference="yGd-18-JFs"/>
+                                <exclude reference="Cjg-FZ-DEx"/>
+                                <include reference="Fzg-to-I1F"/>
+                                <include reference="L6A-hH-lxO"/>
+                                <include reference="O5K-ML-HOJ"/>
+                                <include reference="TYr-73-jXo"/>
+                                <exclude reference="WUp-Wf-NWi"/>
+                                <include reference="lfb-1q-lFJ"/>
+                                <exclude reference="wuw-fh-5ce"/>
                                 <include reference="0OC-C2-Ijd"/>
                                 <exclude reference="48C-Jz-KNN"/>
                                 <include reference="RvC-aV-X1f"/>
@@ -1459,23 +1527,6 @@
                                 <exclude reference="nN6-uV-iQL"/>
                                 <include reference="quJ-Ya-mTx"/>
                                 <exclude reference="zaK-wh-oM7"/>
-                                <exclude reference="2zT-Ox-Yd6"/>
-                                <include reference="5Xj-WU-y87"/>
-                                <include reference="63u-r8-jKT"/>
-                                <include reference="Hfu-K0-bT1"/>
-                                <exclude reference="LcX-vm-JLU"/>
-                                <exclude reference="NmR-TB-vby"/>
-                                <include reference="cUL-39-iv1"/>
-                                <include reference="dJR-Iw-jPe"/>
-                                <exclude reference="oL1-9e-YLg"/>
-                                <exclude reference="Cjg-FZ-DEx"/>
-                                <include reference="Fzg-to-I1F"/>
-                                <include reference="L6A-hH-lxO"/>
-                                <include reference="O5K-ML-HOJ"/>
-                                <include reference="TYr-73-jXo"/>
-                                <exclude reference="WUp-Wf-NWi"/>
-                                <include reference="lfb-1q-lFJ"/>
-                                <exclude reference="wuw-fh-5ce"/>
                                 <exclude reference="60x-G9-nZo"/>
                                 <include reference="8CO-gB-LX2"/>
                                 <include reference="JcN-vu-R13"/>
@@ -1483,6 +1534,44 @@
                                 <include reference="UPT-OA-pNv"/>
                                 <include reference="ese-v6-cFp"/>
                                 <include reference="uNu-RM-iqB"/>
+                                <exclude reference="2zT-Ox-Yd6"/>
+                                <include reference="5Xj-WU-y87"/>
+                                <include reference="63u-r8-jKT"/>
+                                <include reference="Hfu-K0-bT1"/>
+                                <include reference="1gg-5U-9Hu"/>
+                                <include reference="2AF-NI-IcS"/>
+                                <exclude reference="2UV-Q2-mxR"/>
+                                <include reference="EOx-lf-bXf"/>
+                                <include reference="ETs-TO-Gv2"/>
+                                <exclude reference="FSC-vg-NEs"/>
+                                <exclude reference="UyC-43-t1v"/>
+                                <include reference="avg-Ir-aQK"/>
+                                <include reference="gAf-Lw-XoP"/>
+                                <include reference="gGg-nV-MhR"/>
+                                <include reference="zL2-wY-bYs"/>
+                                <include reference="zpA-nN-bCE"/>
+                                <exclude reference="LcX-vm-JLU"/>
+                                <exclude reference="NmR-TB-vby"/>
+                                <include reference="cUL-39-iv1"/>
+                                <include reference="dJR-Iw-jPe"/>
+                                <exclude reference="oL1-9e-YLg"/>
+                                <include reference="Fx3-Mg-a3k"/>
+                                <include reference="L0H-yQ-XST"/>
+                                <include reference="cjT-Sn-IUy"/>
+                                <exclude reference="de6-2e-uV5"/>
+                                <exclude reference="lSW-gz-mBv"/>
+                                <include reference="rqY-l3-fGe"/>
+                                <exclude reference="unA-bH-PjW"/>
+                                <include reference="xta-gm-OfY"/>
+                                <include reference="3Gg-MF-j1a"/>
+                                <exclude reference="AzR-6a-XB0"/>
+                                <exclude reference="EIh-uj-Xmw"/>
+                                <include reference="GRv-UX-6bC"/>
+                                <include reference="eRI-Lc-eSR"/>
+                                <include reference="mzA-Ad-Kaq"/>
+                                <exclude reference="p4l-6b-rdK"/>
+                                <include reference="pBF-eJ-agv"/>
+                                <exclude reference="rwI-Ml-LRt"/>
                                 <exclude reference="3e2-MA-Eyw"/>
                                 <include reference="Ovj-8E-yB4"/>
                                 <exclude reference="Tfe-9u-pzN"/>
@@ -1493,24 +1582,17 @@
                                 <exclude reference="r6s-2q-AxD"/>
                                 <include reference="sZg-Ye-9nz"/>
                                 <include reference="ulc-Qq-g2Z"/>
-                                <include reference="3Gg-MF-j1a"/>
-                                <exclude reference="AzR-6a-XB0"/>
-                                <exclude reference="EIh-uj-Xmw"/>
-                                <include reference="GRv-UX-6bC"/>
-                                <include reference="eRI-Lc-eSR"/>
-                                <include reference="mzA-Ad-Kaq"/>
-                                <exclude reference="p4l-6b-rdK"/>
-                                <include reference="pBF-eJ-agv"/>
-                                <exclude reference="rwI-Ml-LRt"/>
-                                <include reference="Fx3-Mg-a3k"/>
-                                <include reference="L0H-yQ-XST"/>
-                                <include reference="cjT-Sn-IUy"/>
-                                <exclude reference="de6-2e-uV5"/>
-                                <exclude reference="lSW-gz-mBv"/>
-                                <include reference="rqY-l3-fGe"/>
-                                <exclude reference="unA-bH-PjW"/>
-                                <include reference="xta-gm-OfY"/>
                                 <include reference="9oa-5i-epW"/>
+                                <include reference="0gh-P4-6aE"/>
+                                <include reference="8YH-5L-OG1"/>
+                                <exclude reference="B8L-rM-WRt"/>
+                                <include reference="h0J-fZ-Jnh"/>
+                                <exclude reference="mfh-Pm-NDV"/>
+                                <include reference="sYJ-sQ-MkS"/>
+                                <include reference="sjO-do-Hv2"/>
+                                <exclude reference="f3t-1q-zzv"/>
+                                <include reference="iyX-fG-Bjq"/>
+                                <exclude reference="k6m-VD-MEB"/>
                                 <include reference="EkJ-Xj-txj"/>
                                 <exclude reference="Qtp-Fi-TpC"/>
                                 <include reference="TYx-B8-gD5"/>
@@ -1519,22 +1601,12 @@
                                 <exclude reference="ptf-gO-YYM"/>
                                 <include reference="wom-H0-RNL"/>
                                 <exclude reference="yic-Pl-6qM"/>
-                                <include reference="0gh-P4-6aE"/>
-                                <include reference="8YH-5L-OG1"/>
-                                <exclude reference="B8L-rM-WRt"/>
-                                <include reference="h0J-fZ-Jnh"/>
-                                <exclude reference="mfh-Pm-NDV"/>
-                                <include reference="sYJ-sQ-MkS"/>
-                                <include reference="sjO-do-Hv2"/>
                                 <include reference="6IK-6m-ujr"/>
                                 <include reference="7gS-Y6-4OX"/>
                                 <include reference="PME-IS-r4A"/>
                                 <include reference="Q11-7w-2dE"/>
                                 <exclude reference="Xlq-zz-mG3"/>
                                 <exclude reference="av4-a4-z84"/>
-                                <exclude reference="f3t-1q-zzv"/>
-                                <include reference="iyX-fG-Bjq"/>
-                                <exclude reference="k6m-VD-MEB"/>
                                 <include reference="6VX-gc-02F"/>
                                 <exclude reference="EgJ-tT-7XV"/>
                                 <include reference="MqE-li-ikP"/>
@@ -1544,6 +1616,11 @@
                                 <exclude reference="qXG-Jf-I8k"/>
                                 <include reference="r1x-Qo-T5W"/>
                                 <include reference="tdr-Jw-gh2"/>
+                                <include reference="1an-6k-IrL"/>
+                                <include reference="2ZS-m2-pM3"/>
+                                <include reference="YbR-ye-Pjy"/>
+                                <include reference="kAX-4A-gR4"/>
+                                <include reference="tDd-Kg-alY"/>
                                 <include reference="0y5-hE-l3l"/>
                                 <include reference="2sB-O6-TES"/>
                                 <include reference="C9P-Y2-s3B"/>
@@ -1554,11 +1631,6 @@
                                 <exclude reference="daV-dm-hK4"/>
                                 <exclude reference="ocK-EX-Zkv"/>
                                 <include reference="rex-WY-kuf"/>
-                                <include reference="1an-6k-IrL"/>
-                                <include reference="2ZS-m2-pM3"/>
-                                <include reference="YbR-ye-Pjy"/>
-                                <include reference="kAX-4A-gR4"/>
-                                <include reference="tDd-Kg-alY"/>
                                 <include reference="9IO-S5-9hh"/>
                                 <include reference="BJv-k5-BLh"/>
                                 <include reference="Jtp-Gj-3Ie"/>
@@ -1582,7 +1654,10 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Scientific Calculator" id="G92-O0-t7k"/>
+                    <tabBarItem key="tabBarItem" title="Scientific Calculator" image="doubleicon" id="G92-O0-t7k"/>
+                    <connections>
+                        <outlet property="label" destination="kVn-Ee-pwq" id="5XK-QR-4E4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dsI-nf-anA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1593,7 +1668,7 @@
             <objects>
                 <viewController title="Options View Controller" id="V83-ji-LPZ" customClass="OptionsViewController" customModule="MAPD714_ElenaMelnikova_Tab_Bar_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LUL-rn-Z9a">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" restorationIdentifier="Calculator Background Color Picker" translatesAutoresizingMaskIntoConstraints="NO" id="ae5-hX-VEh">
@@ -1712,16 +1787,16 @@
                             <mask key="constraints">
                                 <exclude reference="UfU-oB-CpW"/>
                                 <exclude reference="d0A-M8-lFD"/>
-                                <exclude reference="FA5-ec-Xry"/>
-                                <exclude reference="R9t-ne-OhT"/>
-                                <exclude reference="TFf-nS-3t6"/>
-                                <exclude reference="V9F-Xh-60k"/>
                                 <exclude reference="046-Rf-iWD"/>
                                 <exclude reference="zny-JC-zeg"/>
                                 <exclude reference="8jd-J5-3aZ"/>
                                 <exclude reference="Bf5-Pe-xuj"/>
                                 <exclude reference="VTZ-qQ-tRv"/>
                                 <exclude reference="XRb-hu-Y9S"/>
+                                <exclude reference="FA5-ec-Xry"/>
+                                <exclude reference="R9t-ne-OhT"/>
+                                <exclude reference="TFf-nS-3t6"/>
+                                <exclude reference="V9F-Xh-60k"/>
                                 <exclude reference="H2X-ua-0fs"/>
                                 <exclude reference="U4Y-wL-R8j"/>
                                 <exclude reference="nfV-d2-iQK"/>
@@ -1743,16 +1818,16 @@
                             <mask key="constraints">
                                 <include reference="UfU-oB-CpW"/>
                                 <include reference="d0A-M8-lFD"/>
-                                <include reference="FA5-ec-Xry"/>
-                                <include reference="R9t-ne-OhT"/>
-                                <include reference="TFf-nS-3t6"/>
-                                <include reference="V9F-Xh-60k"/>
                                 <include reference="046-Rf-iWD"/>
                                 <include reference="zny-JC-zeg"/>
                                 <include reference="8jd-J5-3aZ"/>
                                 <include reference="Bf5-Pe-xuj"/>
                                 <include reference="VTZ-qQ-tRv"/>
                                 <include reference="XRb-hu-Y9S"/>
+                                <include reference="FA5-ec-Xry"/>
+                                <include reference="R9t-ne-OhT"/>
+                                <include reference="TFf-nS-3t6"/>
+                                <include reference="V9F-Xh-60k"/>
                                 <include reference="H2X-ua-0fs"/>
                                 <exclude reference="U4Y-wL-R8j"/>
                                 <include reference="nfV-d2-iQK"/>
@@ -1761,7 +1836,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Options" id="PwG-vK-U2N"/>
+                    <tabBarItem key="tabBarItem" title="Options" image="toolicon" id="PwG-vK-U2N"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12V-SN-dh3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1772,10 +1847,10 @@
             <objects>
                 <viewController storyboardIdentifier="BasicCalculatorViewController" title="Basic Calculator View Controller" id="rxd-GT-XAK" customClass="BasicCalculatorViewController" customModule="MAPD714_ElenaMelnikova_Tab_Bar_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hNv-St-klP">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGO-BI-l6U">
+                            <label opaque="NO" userInteractionEnabled="NO" tag="19" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGO-BI-l6U" customClass="UILabelPadding" customModule="MAPD714_ElenaMelnikova_Tab_Bar_Calculator" customModuleProvider="target">
                                 <rect key="frame" x="5" y="25" width="365" height="150"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -1792,6 +1867,9 @@
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="psa-0c-Lw1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ih2-p4-6XE">
                                 <rect key="frame" x="282.5" y="530.5" width="87.5" height="82.5"/>
@@ -1800,6 +1878,9 @@
                                 <state key="normal" title="=">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="RUS-sG-Rhh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5Z-MJ-sCi">
                                 <rect key="frame" x="5" y="442.5" width="87.5" height="83"/>
@@ -1808,6 +1889,9 @@
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="1rO-CC-KYg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ME5-Bd-vZB">
                                 <rect key="frame" x="5" y="355.5" width="87.5" height="82"/>
@@ -1816,6 +1900,9 @@
                                 <state key="normal" title="4">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="VvO-bZ-vMZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hY-EF-SUI">
                                 <rect key="frame" x="5" y="267.5" width="87.5" height="83"/>
@@ -1824,6 +1911,9 @@
                                 <state key="normal" title="7">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="cYe-cz-b4A"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMq-Ud-shD">
                                 <rect key="frame" x="5" y="180" width="87.5" height="82.5"/>
@@ -1832,6 +1922,9 @@
                                 <state key="normal" title="C">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="Oxa-Ue-DqR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwD-Nd-6rQ">
                                 <rect key="frame" x="97.5" y="442.5" width="87.5" height="83"/>
@@ -1840,6 +1933,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="tT7-9q-cbV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YpP-v7-VKO">
                                 <rect key="frame" x="97.5" y="355.5" width="87.5" height="82"/>
@@ -1848,6 +1944,9 @@
                                 <state key="normal" title="5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="BFf-Tr-o8G"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhX-Xm-HMy">
                                 <rect key="frame" x="97.5" y="267.5" width="87.5" height="83"/>
@@ -1856,6 +1955,9 @@
                                 <state key="normal" title="8">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="jes-bT-36a"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6I-zh-qnf">
                                 <rect key="frame" x="97.5" y="180" width="87.5" height="82.5"/>
@@ -1864,6 +1966,9 @@
                                 <state key="normal" title="+/-">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="M2A-nr-cXk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6H-6A-Oos">
                                 <rect key="frame" x="190" y="442.5" width="87.5" height="83"/>
@@ -1872,6 +1977,9 @@
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="sGP-om-NqD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-Og-jg3">
                                 <rect key="frame" x="282.5" y="442.5" width="87.5" height="83"/>
@@ -1880,6 +1988,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="1Z8-oD-DDS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3Q-6e-ysI">
                                 <rect key="frame" x="190" y="355.5" width="87.5" height="82"/>
@@ -1888,6 +1999,9 @@
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="gZ8-BS-kbh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZ5-XI-njt">
                                 <rect key="frame" x="282.5" y="355.5" width="87.5" height="82"/>
@@ -1896,6 +2010,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="aMh-n1-gp4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0i-AW-kOY">
                                 <rect key="frame" x="190" y="267.5" width="87.5" height="83"/>
@@ -1904,6 +2021,9 @@
                                 <state key="normal" title="9">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="afo-gi-lx1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zh3-4f-UGb">
                                 <rect key="frame" x="282.5" y="267.5" width="87.5" height="83"/>
@@ -1912,6 +2032,9 @@
                                 <state key="normal" title="x">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="s77-MI-0gv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCW-3B-N5O">
                                 <rect key="frame" x="190" y="180" width="87.5" height="82.5"/>
@@ -1920,6 +2043,9 @@
                                 <state key="normal" title="√">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="s2j-0I-fd5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJK-Wp-Cvu">
                                 <rect key="frame" x="282.5" y="180" width="87.5" height="82.5"/>
@@ -1928,6 +2054,9 @@
                                 <state key="normal" title="/">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="iSE-Je-AJJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQH-R4-SXo">
                                 <rect key="frame" x="190" y="530.5" width="87.5" height="82.5"/>
@@ -1936,8 +2065,11 @@
                                 <state key="normal" title=".">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="7HN-SH-3TS"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAU-Tp-ELa">
+                            <label opaque="NO" userInteractionEnabled="NO" tag="19" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Landscape" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAU-Tp-ELa" customClass="UILabelPadding" customModule="MAPD714_ElenaMelnikova_Tab_Bar_Calculator" customModuleProvider="target">
                                 <rect key="frame" x="5" y="5" width="657" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -1966,6 +2098,9 @@
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="HlS-wC-Kml"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3y-av-KkL">
                                 <rect key="frame" x="105" y="273" width="70" height="58"/>
@@ -1983,6 +2118,9 @@
                                 <state key="normal" title="C">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="4cw-6e-KXQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iX6-g0-Yyo">
                                 <rect key="frame" x="270" y="285" width="127" height="53"/>
@@ -1991,6 +2129,9 @@
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="lBW-EK-WaM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Clb-1e-nJL">
                                 <rect key="frame" x="5" y="226.5" width="127.5" height="53.5"/>
@@ -1999,6 +2140,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="FDD-Z0-tNm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlF-Gd-nRu">
                                 <rect key="frame" x="5" y="168.5" width="127.5" height="53"/>
@@ -2007,6 +2151,9 @@
                                 <state key="normal" title="5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="L1v-KY-JCg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckr-0C-m0P">
                                 <rect key="frame" x="534.5" y="285" width="127.5" height="53"/>
@@ -2015,6 +2162,9 @@
                                 <state key="normal" title="=">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="Ilf-P1-dMB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNh-zV-Hds">
                                 <rect key="frame" x="137.5" y="226.5" width="127.5" height="53.5"/>
@@ -2023,6 +2173,9 @@
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="4oN-dO-SCQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2Z-g5-lGk">
                                 <rect key="frame" x="270" y="226.5" width="127" height="53.5"/>
@@ -2031,6 +2184,9 @@
                                 <state key="normal" title="4">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="f8s-uK-BiJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uP1-ID-1A1">
                                 <rect key="frame" x="402" y="226.5" width="127.5" height="53.5"/>
@@ -2039,6 +2195,9 @@
                                 <state key="normal" title="+/-">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="j2g-Gt-1zx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdH-hV-hkB">
                                 <rect key="frame" x="534.5" y="226.5" width="127.5" height="53.5"/>
@@ -2047,6 +2206,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="4UJ-lu-r1v"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RRU-56-Jeh">
                                 <rect key="frame" x="137.5" y="168.5" width="127.5" height="53"/>
@@ -2055,6 +2217,9 @@
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="40A-8A-H9p"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAy-Sa-JkF">
                                 <rect key="frame" x="270" y="168.5" width="127" height="53"/>
@@ -2063,6 +2228,9 @@
                                 <state key="normal" title="7">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="pPN-nc-Nor"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arR-tC-6Nh">
                                 <rect key="frame" x="402" y="168.5" width="127.5" height="53"/>
@@ -2071,6 +2239,9 @@
                                 <state key="normal" title="√">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="KR1-oi-Sxg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8Y-rj-rUR">
                                 <rect key="frame" x="534.5" y="168.5" width="127.5" height="53"/>
@@ -2079,6 +2250,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="a6s-k7-T75"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IF7-N9-8BO">
                                 <rect key="frame" x="137.5" y="110" width="127.5" height="53.5"/>
@@ -2087,6 +2261,9 @@
                                 <state key="normal" title="8">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="Eg9-ma-NkE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MiG-pk-0vw">
                                 <rect key="frame" x="402" y="110" width="127.5" height="53.5"/>
@@ -2095,6 +2272,9 @@
                                 <state key="normal" title="/">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="6hq-Hk-6Yf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHt-k0-bLR">
                                 <rect key="frame" x="534.5" y="110" width="127.5" height="53.5"/>
@@ -2103,6 +2283,9 @@
                                 <state key="normal" title="x">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="gZE-4a-VVz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5Y-10-bH2">
                                 <rect key="frame" x="402" y="285" width="127.5" height="53"/>
@@ -2111,6 +2294,9 @@
                                 <state key="normal" title=".">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="mla-WK-FJN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZO-6g-1EC">
                                 <rect key="frame" x="270" y="110" width="127" height="54"/>
@@ -2119,6 +2305,9 @@
                                 <state key="normal" title="9">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="Fh5-Gj-P7F"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2329,20 +2518,11 @@
                                 <exclude reference="2dD-2F-vSS"/>
                                 <exclude reference="Et2-xd-dxd"/>
                                 <exclude reference="FrD-Tf-keh"/>
+                                <exclude reference="Mu8-xR-5cw"/>
                                 <exclude reference="5vx-oy-X9y"/>
                                 <exclude reference="693-xS-Ovi"/>
                                 <exclude reference="UIt-WK-e3v"/>
                                 <exclude reference="yKj-ki-BCu"/>
-                                <exclude reference="9gd-s4-Of5"/>
-                                <exclude reference="G8z-Za-UXF"/>
-                                <exclude reference="KOE-8c-M4c"/>
-                                <exclude reference="LSC-oF-1hf"/>
-                                <exclude reference="b8k-XE-UBJ"/>
-                                <exclude reference="eGM-iA-yT0"/>
-                                <exclude reference="h6X-eE-Eon"/>
-                                <exclude reference="qNQ-qH-5gF"/>
-                                <exclude reference="wca-yD-VwS"/>
-                                <exclude reference="Mu8-xR-5cw"/>
                                 <exclude reference="3VD-FH-SKK"/>
                                 <exclude reference="EZV-ig-yca"/>
                                 <exclude reference="IAg-Ik-4BC"/>
@@ -2370,6 +2550,15 @@
                                 <exclude reference="Oso-H9-kIK"/>
                                 <exclude reference="UCw-tU-ain"/>
                                 <exclude reference="a0u-K0-lW7"/>
+                                <exclude reference="9gd-s4-Of5"/>
+                                <exclude reference="G8z-Za-UXF"/>
+                                <exclude reference="KOE-8c-M4c"/>
+                                <exclude reference="LSC-oF-1hf"/>
+                                <exclude reference="b8k-XE-UBJ"/>
+                                <exclude reference="eGM-iA-yT0"/>
+                                <exclude reference="h6X-eE-Eon"/>
+                                <exclude reference="qNQ-qH-5gF"/>
+                                <exclude reference="wca-yD-VwS"/>
                                 <exclude reference="qkO-oM-W7f"/>
                                 <exclude reference="ODG-1i-YN4"/>
                                 <exclude reference="TQN-zq-ebT"/>
@@ -2461,20 +2650,11 @@
                                 <include reference="2dD-2F-vSS"/>
                                 <include reference="Et2-xd-dxd"/>
                                 <include reference="FrD-Tf-keh"/>
+                                <include reference="Mu8-xR-5cw"/>
                                 <include reference="5vx-oy-X9y"/>
                                 <include reference="693-xS-Ovi"/>
                                 <include reference="UIt-WK-e3v"/>
                                 <include reference="yKj-ki-BCu"/>
-                                <include reference="9gd-s4-Of5"/>
-                                <include reference="G8z-Za-UXF"/>
-                                <include reference="KOE-8c-M4c"/>
-                                <include reference="LSC-oF-1hf"/>
-                                <include reference="b8k-XE-UBJ"/>
-                                <include reference="eGM-iA-yT0"/>
-                                <include reference="h6X-eE-Eon"/>
-                                <include reference="qNQ-qH-5gF"/>
-                                <include reference="wca-yD-VwS"/>
-                                <include reference="Mu8-xR-5cw"/>
                                 <include reference="3VD-FH-SKK"/>
                                 <include reference="EZV-ig-yca"/>
                                 <include reference="IAg-Ik-4BC"/>
@@ -2502,6 +2682,15 @@
                                 <include reference="Oso-H9-kIK"/>
                                 <include reference="UCw-tU-ain"/>
                                 <include reference="a0u-K0-lW7"/>
+                                <include reference="9gd-s4-Of5"/>
+                                <include reference="G8z-Za-UXF"/>
+                                <include reference="KOE-8c-M4c"/>
+                                <include reference="LSC-oF-1hf"/>
+                                <include reference="b8k-XE-UBJ"/>
+                                <include reference="eGM-iA-yT0"/>
+                                <include reference="h6X-eE-Eon"/>
+                                <include reference="qNQ-qH-5gF"/>
+                                <include reference="wca-yD-VwS"/>
                                 <include reference="qkO-oM-W7f"/>
                                 <include reference="ODG-1i-YN4"/>
                                 <include reference="TQN-zq-ebT"/>
@@ -2542,7 +2731,10 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Basic Calculator" id="SHB-s7-Jyb"/>
+                    <tabBarItem key="tabBarItem" title="Basic Calculator" image="singleicon" id="SHB-s7-Jyb"/>
+                    <connections>
+                        <outlet property="label" destination="QGO-BI-l6U" id="qPM-3S-Obg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NEG-YP-xgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2568,4 +2760,9 @@
             <point key="canvasLocation" x="-599" y="-622"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="doubleicon" width="25" height="24"/>
+        <image name="singleicon" width="25" height="24"/>
+        <image name="toolicon" width="24" height="24"/>
+    </resources>
 </document>
