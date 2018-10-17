@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lza-le-8Xb">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,7 +15,7 @@
             <objects>
                 <viewController title="Scientific Calculator View Controller" id="FNE-sC-Pht" customClass="ScientificCalculatorViewController" customModule="MAPD714_ElenaMelnikova_Tab_Bar_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yC1-H4-WSh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9r-Qg-Csq">
@@ -1202,17 +1202,35 @@
             <objects>
                 <viewController title="Options View Controller" id="V83-ji-LPZ" customClass="OptionsViewController" customModule="MAPD714_ElenaMelnikova_Tab_Bar_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LUL-rn-Z9a">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" restorationIdentifier="Calculator Background Color Picker" translatesAutoresizingMaskIntoConstraints="NO" id="ae5-hX-VEh">
-                                <rect key="frame" x="58" y="109" width="259" height="200"/>
+                                <rect key="frame" x="58" y="110" width="551" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="4gr-hT-S8o"/>
                                 </constraints>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" restorationIdentifier="Calculator Font Color Label" text="Calculator Font Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2MP-k2-jm9">
-                                <rect key="frame" x="10" y="329" width="355" height="49"/>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qk2-FN-5oB">
+                                <rect key="frame" x="20" y="71" width="303.5" height="252"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpc-14-kNa">
+                                <rect key="frame" x="343.5" y="71" width="303.5" height="252"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator Background Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiM-OV-PDI">
+                                <rect key="frame" x="20" y="30" width="303.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator Text Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpU-k4-9uS">
+                                <rect key="frame" x="343.5" y="30" width="303.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" restorationIdentifier="Calculator Text Color Label" text="Calculator Text Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2MP-k2-jm9">
+                                <rect key="frame" x="10" y="329.5" width="355" height="48.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1223,8 +1241,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" restorationIdentifier="Calculator Font Color Picker" translatesAutoresizingMaskIntoConstraints="NO" id="xgj-wx-1QI">
-                                <rect key="frame" x="58" y="398" width="259" height="200"/>
+                            <pickerView contentMode="scaleToFill" restorationIdentifier="Calculator Text Color Picker" translatesAutoresizingMaskIntoConstraints="NO" id="xgj-wx-1QI">
+                                <rect key="frame" x="58" y="398" width="551" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="y9P-4o-Ack"/>
                                 </constraints>
@@ -1232,37 +1250,138 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Qk2-FN-5oB" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" constant="42" id="046-Rf-iWD">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="bpU-k4-9uS" firstAttribute="leading" secondItem="IiM-OV-PDI" secondAttribute="trailing" constant="172" id="8jd-J5-3aZ">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="bpU-k4-9uS" firstAttribute="height" secondItem="IiM-OV-PDI" secondAttribute="height" id="Bf5-Pe-xuj"/>
+                            <constraint firstItem="fEu-Vn-NKV" firstAttribute="bottom" secondItem="Qk2-FN-5oB" secondAttribute="bottom" constant="75" id="FA5-ec-Xry">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="bpc-14-kNa" firstAttribute="width" secondItem="Qk2-FN-5oB" secondAttribute="width" id="H2X-ua-0fs"/>
                             <constraint firstItem="fEu-Vn-NKV" firstAttribute="trailing" secondItem="2MP-k2-jm9" secondAttribute="trailing" constant="10" id="Mji-l9-fBW"/>
                             <constraint firstItem="ysU-eD-kiO" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" constant="10" id="P4x-ew-uYH"/>
                             <constraint firstItem="ae5-hX-VEh" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" constant="58" id="PeS-FW-5VH"/>
+                            <constraint firstItem="fEu-Vn-NKV" firstAttribute="trailing" secondItem="bpU-k4-9uS" secondAttribute="trailing" constant="20" id="R9t-ne-OhT">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="fEu-Vn-NKV" firstAttribute="trailing" secondItem="bpc-14-kNa" secondAttribute="trailing" constant="58" id="TFf-nS-3t6">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="bpc-14-kNa" firstAttribute="leading" secondItem="Qk2-FN-5oB" secondAttribute="trailing" constant="97.5" id="U4Y-wL-R8j">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="IiM-OV-PDI" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" constant="20" id="UfU-oB-CpW">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="fEu-Vn-NKV" firstAttribute="bottom" secondItem="bpc-14-kNa" secondAttribute="bottom" constant="75" id="V9F-Xh-60k">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="bpU-k4-9uS" firstAttribute="top" secondItem="fEu-Vn-NKV" secondAttribute="top" constant="60" id="VTZ-qQ-tRv">
+                                <variation key="heightClass=compact" constant="30"/>
+                            </constraint>
                             <constraint firstItem="ae5-hX-VEh" firstAttribute="top" secondItem="ysU-eD-kiO" secondAttribute="bottom" constant="20" id="W4C-qz-gSZ"/>
                             <constraint firstItem="fEu-Vn-NKV" firstAttribute="trailing" secondItem="ysU-eD-kiO" secondAttribute="trailing" constant="10" id="XG5-Kz-Rqm"/>
+                            <constraint firstItem="bpU-k4-9uS" firstAttribute="width" secondItem="IiM-OV-PDI" secondAttribute="width" id="XRb-hu-Y9S"/>
                             <constraint firstItem="2MP-k2-jm9" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" constant="10" id="anz-LA-yxc"/>
                             <constraint firstItem="fEu-Vn-NKV" firstAttribute="trailing" secondItem="xgj-wx-1QI" secondAttribute="trailing" constant="58" id="cRA-NS-Exk"/>
                             <constraint firstItem="fEu-Vn-NKV" firstAttribute="bottom" secondItem="xgj-wx-1QI" secondAttribute="bottom" constant="20" id="cb8-ps-EE1"/>
+                            <constraint firstItem="IiM-OV-PDI" firstAttribute="top" secondItem="fEu-Vn-NKV" secondAttribute="top" constant="60" id="d0A-M8-lFD">
+                                <variation key="heightClass=compact" constant="30"/>
+                            </constraint>
                             <constraint firstItem="fEu-Vn-NKV" firstAttribute="trailing" secondItem="ae5-hX-VEh" secondAttribute="trailing" constant="58" id="enb-Iv-2Ct"/>
                             <constraint firstItem="xgj-wx-1QI" firstAttribute="width" secondItem="ae5-hX-VEh" secondAttribute="width" id="jKo-5D-esA"/>
                             <constraint firstItem="2MP-k2-jm9" firstAttribute="top" secondItem="ae5-hX-VEh" secondAttribute="bottom" constant="20" id="jbP-59-AsY"/>
                             <constraint firstItem="2MP-k2-jm9" firstAttribute="height" secondItem="ysU-eD-kiO" secondAttribute="height" id="n2V-lf-h3C"/>
                             <constraint firstItem="xgj-wx-1QI" firstAttribute="height" secondItem="ae5-hX-VEh" secondAttribute="height" id="nLq-fl-Gmc"/>
+                            <constraint firstItem="bpc-14-kNa" firstAttribute="leading" secondItem="Qk2-FN-5oB" secondAttribute="trailing" constant="59" id="nfV-d2-iQK">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
                             <constraint firstItem="ysU-eD-kiO" firstAttribute="top" secondItem="fEu-Vn-NKV" secondAttribute="top" constant="20" id="qII-0G-vrr"/>
+                            <constraint firstItem="bpc-14-kNa" firstAttribute="height" secondItem="Qk2-FN-5oB" secondAttribute="height" id="rKN-qt-hLO"/>
+                            <constraint firstItem="bpc-14-kNa" firstAttribute="top" secondItem="bpU-k4-9uS" secondAttribute="bottom" constant="90" id="wNA-zs-GkA">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
                             <constraint firstItem="xgj-wx-1QI" firstAttribute="top" secondItem="2MP-k2-jm9" secondAttribute="bottom" constant="20" id="x27-b7-dHP"/>
                             <constraint firstItem="xgj-wx-1QI" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" constant="58" id="yeZ-or-ep2"/>
+                            <constraint firstItem="Qk2-FN-5oB" firstAttribute="top" secondItem="IiM-OV-PDI" secondAttribute="bottom" constant="80" id="zny-JC-zeg">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fEu-Vn-NKV"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Qk2-FN-5oB"/>
+                                <exclude reference="bpc-14-kNa"/>
+                                <exclude reference="IiM-OV-PDI"/>
+                                <exclude reference="bpU-k4-9uS"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="FA5-ec-Xry"/>
+                                <exclude reference="R9t-ne-OhT"/>
+                                <exclude reference="TFf-nS-3t6"/>
+                                <exclude reference="V9F-Xh-60k"/>
+                                <exclude reference="UfU-oB-CpW"/>
+                                <exclude reference="d0A-M8-lFD"/>
+                                <exclude reference="046-Rf-iWD"/>
+                                <exclude reference="zny-JC-zeg"/>
+                                <exclude reference="H2X-ua-0fs"/>
+                                <exclude reference="U4Y-wL-R8j"/>
+                                <exclude reference="nfV-d2-iQK"/>
+                                <exclude reference="rKN-qt-hLO"/>
+                                <exclude reference="wNA-zs-GkA"/>
+                                <exclude reference="8jd-J5-3aZ"/>
+                                <exclude reference="Bf5-Pe-xuj"/>
+                                <exclude reference="VTZ-qQ-tRv"/>
+                                <exclude reference="XRb-hu-Y9S"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="ae5-hX-VEh"/>
+                                <include reference="Qk2-FN-5oB"/>
+                                <include reference="bpc-14-kNa"/>
+                                <include reference="IiM-OV-PDI"/>
+                                <include reference="bpU-k4-9uS"/>
+                                <exclude reference="2MP-k2-jm9"/>
+                                <exclude reference="ysU-eD-kiO"/>
+                                <exclude reference="xgj-wx-1QI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="FA5-ec-Xry"/>
+                                <include reference="R9t-ne-OhT"/>
+                                <include reference="TFf-nS-3t6"/>
+                                <include reference="V9F-Xh-60k"/>
+                                <include reference="UfU-oB-CpW"/>
+                                <include reference="d0A-M8-lFD"/>
+                                <include reference="046-Rf-iWD"/>
+                                <include reference="zny-JC-zeg"/>
+                                <include reference="H2X-ua-0fs"/>
+                                <exclude reference="U4Y-wL-R8j"/>
+                                <include reference="nfV-d2-iQK"/>
+                                <include reference="rKN-qt-hLO"/>
+                                <include reference="wNA-zs-GkA"/>
+                                <include reference="8jd-J5-3aZ"/>
+                                <include reference="Bf5-Pe-xuj"/>
+                                <include reference="VTZ-qQ-tRv"/>
+                                <include reference="XRb-hu-Y9S"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Options" id="PwG-vK-U2N"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12V-SN-dh3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1165.5999999999999" y="-622.03898050974522"/>
+            <point key="canvasLocation" x="1165.3673163418291" y="-623.20000000000005"/>
         </scene>
         <!--Basic Calculator View Controller-->
         <scene sceneID="WRX-G3-a9f">
             <objects>
                 <viewController storyboardIdentifier="BasicCalculatorViewController" title="Basic Calculator View Controller" id="rxd-GT-XAK" customClass="BasicCalculatorViewController" customModule="MAPD714_ElenaMelnikova_Tab_Bar_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hNv-St-klP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGO-BI-l6U">
