@@ -10,6 +10,55 @@ import UIKit
 
 class BasicCalculatorViewController: UIViewController {
     
+    let defaults = UserDefaults.standard
+    
+    //Get data from options
+    //var basicBackgroundColor = "Red"
+    
+    
+    func getSubviewsOfView(v:UIView) -> [UIButton] {
+        var buttonArray = [UIButton]()
+        for subview in v.subviews {
+            buttonArray += getSubviewsOfView(v: subview)
+            if subview is UIButton {
+                buttonArray.append(subview as! UIButton)
+            }
+        }
+        return buttonArray
+    }
+    
+  
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        var backgroundColor = UIColor.darkGray
+        var basicBackgroundColor = defaults.string(forKey: "backgroundColor")
+        if basicBackgroundColor == nil {
+            basicBackgroundColor = "Dark Gray"
+        }
+        switch basicBackgroundColor {
+        case "Red":
+            backgroundColor = UIColor.red
+            break
+        case "Yellow":
+            backgroundColor = UIColor.yellow
+            break
+        default:
+            backgroundColor = UIColor.darkGray
+        }
+        
+        let buttons = getSubviewsOfView(v: self.view)
+        for btn in buttons {
+//            btn.setTitleColor(textColor, for: .normal)
+            if btn.titleLabel?.text != "C" && btn.titleLabel?.text != "=" {
+                btn.backgroundColor = backgroundColor
+            }
+        }
+    }
+    
+    
     //Number displayed on screen
     
     var screenNumber:Double? = nil
@@ -394,4 +443,12 @@ class BasicCalculatorViewController: UIViewController {
         }
         return res
     }
+    
+    
+   //Get data from options
+
+
+
+    
+    
 }

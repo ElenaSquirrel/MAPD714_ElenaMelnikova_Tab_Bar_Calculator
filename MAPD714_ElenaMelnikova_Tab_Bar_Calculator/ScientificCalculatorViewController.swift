@@ -9,8 +9,15 @@
 import UIKit
 
 class ScientificCalculatorViewController: UIViewController {
-    var screenNumber:Double? = nil
+    // Trigonometry
     
+    
+    
+    
+    
+    
+    
+    var screenNumber:Double? = nil
     
     //Number displayed on screen before operation
     var previousNumber:Double? = nil
@@ -362,11 +369,15 @@ class ScientificCalculatorViewController: UIViewController {
         case 22:
             //sin
             return "sin"
-            
-            
-            
-            
-            
+        case 23:
+            //x^2
+            return "x^2"
+        case 24:
+            //x^3
+            return "x^3"
+        case 25:
+            //10^x
+            return "10^x"
         default:
             return ""
         }
@@ -399,6 +410,19 @@ class ScientificCalculatorViewController: UIViewController {
             break;
         case 20:
             //tan
+            
+            res = tan(Double(num1!) * 90 * Double.pi / 180)
+            break;
+        case 21:
+            //cos
+            res = cos(Double(num1!) * 90 * Double.pi / 180)
+            break;
+        case 22:
+            //sin
+            res = sin(Double(num1!) * 90.0 * Double.pi / 180)
+            break;
+        case 23:
+            //x^2
             res = Double(num1!) + Double(num2!)
             break;
             
