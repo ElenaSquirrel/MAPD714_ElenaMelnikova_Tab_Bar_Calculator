@@ -9,7 +9,88 @@
 import UIKit
 
 class ScientificCalculatorViewController: UIViewController {
-    // Trigonometry
+    let defaults = UserDefaults.standard
+    
+    func getSubviewsOfView(v:UIView) -> [UIButton] {
+        var buttonArray = [UIButton]()
+        for subview in v.subviews {
+            buttonArray += getSubviewsOfView(v: subview)
+            if subview is UIButton {
+                buttonArray.append(subview as! UIButton)
+            }
+        }
+        return buttonArray
+    }
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        var backgroundColor = UIColor.darkGray
+        var textColor = UIColor.white
+        
+        var scientificBackgroundColor = defaults.string(forKey: "backgroundColor")
+        var scientificTextColor = defaults.string(forKey: "textColor")
+        
+        if scientificBackgroundColor == nil{
+            scientificBackgroundColor = "Dark Gray"
+            
+        }
+        
+        switch scientificBackgroundColor {
+        case "Red":
+            backgroundColor = UIColor.red
+            break
+        case "Yellow":
+            backgroundColor = UIColor.yellow
+            break
+        case "Blue":
+            backgroundColor = UIColor.blue
+            break
+        case "Black":
+            backgroundColor = UIColor.black
+            break
+        case "White":
+            backgroundColor = UIColor.white
+            break
+        default:
+            backgroundColor = UIColor.darkGray
+        }
+        
+        if scientificTextColor == nil{
+            scientificTextColor = "White"
+        }
+        switch scientificTextColor {
+        case "Red":
+            textColor = UIColor.red
+            break
+        case "Yellow":
+            textColor = UIColor.yellow
+            break
+        case "Blue":
+            textColor = UIColor.blue
+            break
+        case "Black":
+            textColor = UIColor.black
+            break
+        case "Dark Gray":
+            textColor = UIColor.darkGray
+            break
+        default:
+            textColor = UIColor.white
+        }
+        
+        let buttons = getSubviewsOfView(v: self.view)
+        for btn in buttons {
+            btn.setTitleColor(textColor, for: .normal)
+            if btn.titleLabel?.text != "C" && btn.titleLabel?.text != "=" {
+                btn.backgroundColor = backgroundColor
+            }
+        }
+    }
     
     
     
@@ -411,21 +492,28 @@ class ScientificCalculatorViewController: UIViewController {
         case 20:
             //tan
             
-            res = tan(Double(num1!) * 90 * Double.pi / 180)
+            res = tan(Double(num2!) * 90 * Double.pi / 180)
             break;
         case 21:
             //cos
-            res = cos(Double(num1!) * 90 * Double.pi / 180)
+            res = cos(Double(num2!) * 90 * Double.pi / 180)
             break;
         case 22:
             //sin
-            res = sin(Double(num1!) * 90.0 * Double.pi / 180)
+            res = sin(Double(num2!) * 90.0 * Double.pi / 180)
             break;
-        case 23:
-            //x^2
-            res = Double(num1!) + Double(num2!)
-            break;
-            
+//        case 23:
+//            //x^2
+//            res =
+//            break;
+//        case 24:
+//            //x^3
+//            res =
+//            break;
+//        case 25:
+//            //10^x
+//            res =
+//
             
         
         default:

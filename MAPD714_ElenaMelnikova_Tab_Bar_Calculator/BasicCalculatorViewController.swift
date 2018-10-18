@@ -12,10 +12,6 @@ class BasicCalculatorViewController: UIViewController {
     
     let defaults = UserDefaults.standard
     
-    //Get data from options
-    //var basicBackgroundColor = "Red"
-    
-    
     func getSubviewsOfView(v:UIView) -> [UIButton] {
         var buttonArray = [UIButton]()
         for subview in v.subviews {
@@ -33,11 +29,18 @@ class BasicCalculatorViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
         var backgroundColor = UIColor.darkGray
+        var textColor = UIColor.white
+        
         var basicBackgroundColor = defaults.string(forKey: "backgroundColor")
-        if basicBackgroundColor == nil {
+        var basicTextColor = defaults.string(forKey: "textColor")
+        
+        if basicBackgroundColor == nil{
             basicBackgroundColor = "Dark Gray"
+
         }
+        
         switch basicBackgroundColor {
         case "Red":
             backgroundColor = UIColor.red
@@ -45,13 +48,45 @@ class BasicCalculatorViewController: UIViewController {
         case "Yellow":
             backgroundColor = UIColor.yellow
             break
+        case "Blue":
+            backgroundColor = UIColor.blue
+            break
+        case "Black":
+            backgroundColor = UIColor.black
+            break
+        case "White":
+            backgroundColor = UIColor.white
+            break
         default:
             backgroundColor = UIColor.darkGray
         }
         
+        if basicTextColor == nil{
+            basicTextColor = "White"
+        }
+        switch basicTextColor {
+        case "Red":
+            textColor = UIColor.red
+            break
+        case "Yellow":
+            textColor = UIColor.yellow
+            break
+        case "Blue":
+            textColor = UIColor.blue
+            break
+        case "Black":
+            textColor = UIColor.black
+            break
+        case "Dark Gray":
+            textColor = UIColor.darkGray
+            break
+        default:
+            textColor = UIColor.white
+        }
+        
         let buttons = getSubviewsOfView(v: self.view)
         for btn in buttons {
-//            btn.setTitleColor(textColor, for: .normal)
+            btn.setTitleColor(textColor, for: .normal)
             if btn.titleLabel?.text != "C" && btn.titleLabel?.text != "=" {
                 btn.backgroundColor = backgroundColor
             }

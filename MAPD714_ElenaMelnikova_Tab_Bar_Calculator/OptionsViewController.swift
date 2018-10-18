@@ -15,7 +15,8 @@ class OptionsViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     // Send data to calculators
     let defaults = UserDefaults.standard
     
-    var backgroundColor = "Red"
+    var backgroundColor = "Dark Gray"
+    var textColor = "White"
     
     //
     
@@ -101,7 +102,5 @@ class OptionsViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         }
     }
     
-    
-    //
 }
 
