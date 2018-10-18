@@ -491,16 +491,15 @@ class ScientificCalculatorViewController: UIViewController {
             break;
         case 20:
             //tan
-            
-            res = tan(Double(num2!) * 90 * Double.pi / 180)
+            res = tan(Double(num2!))
             break;
         case 21:
             //cos
-            res = cos(Double(num2!) * 90 * Double.pi / 180)
+            res = cos(Double(num2!))
             break;
         case 22:
             //sin
-            res = sin(Double(num2!) * 90.0 * Double.pi / 180)
+            res = sin(Double(num2!))
             break;
 //        case 23:
 //            //x^2
