@@ -501,19 +501,18 @@ class ScientificCalculatorViewController: UIViewController {
             //sin
             res = sin(Double(num2!))
             break;
-//        case 23:
-//            //x^2
-//            res =
-//            break;
-//        case 24:
-//            //x^3
-//            res =
-//            break;
-//        case 25:
-//            //10^x
-//            res =
-//
-            
+        case 23:
+            //x^2
+            res = pow(Double(num2!), 2)
+            break;
+        case 24:
+            //x^3
+            res = pow(Double(num2!), 3)
+            break;
+        case 25:
+            //10^x
+            res = pow(Double(num1!), Double(num2!))
+
         
         default:
             res = num2!
