@@ -11,7 +11,7 @@ import UIKit
 class OptionsViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
     
-    @IBOutlet weak var background_color_picker: UIPickerView!
+    @IBOutlet weak var color_picker: UIPickerView!
     // Send data to calculators
     let defaults = UserDefaults.standard
     
@@ -53,8 +53,8 @@ class OptionsViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     }
     */
     @IBAction func submitOptions(_ sender: UIButton) {
-        let row_backgroundColor = background_color_picker.selectedRow(inComponent: 0)
-        let row_textColor = background_color_picker.selectedRow(inComponent: 1)
+        let row_backgroundColor = color_picker.selectedRow(inComponent: 0)
+        let row_textColor = color_picker.selectedRow(inComponent: 1)
         
         let selected_backgroundColor = characterBackgroundColors[row_backgroundColor]
         let selected_textColor = characterTextColors[row_textColor]

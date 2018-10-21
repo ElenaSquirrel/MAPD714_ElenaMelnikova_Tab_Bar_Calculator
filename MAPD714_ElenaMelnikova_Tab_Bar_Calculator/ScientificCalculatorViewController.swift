@@ -22,9 +22,19 @@ class ScientificCalculatorViewController: UIViewController {
         return buttonArray
     }
     
+    // Set x^2, x^3 and 10^x in readable form
+    
+    @IBOutlet weak var xExp2: UIButton!
+    @IBOutlet weak var xExp3: UIButton!
+    @IBOutlet weak var tenExpN: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    // https://www.fileformat.info/info/unicode/block/superscripts_and_subscripts/list.htm
+       
+        xExp2.setTitle("x\u{00B2}", for: [])
+        xExp2.setTitle("x\u{00B3}", for: [])
+        tenExpN.setTitle("10\u{207F}", for: [])
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -457,8 +467,8 @@ class ScientificCalculatorViewController: UIViewController {
             //x^3
             return "x^3"
         case 25:
-            //10^x
-            return "10^x"
+            //10^n
+            return "10^n"
         default:
             return ""
         }
@@ -510,8 +520,8 @@ class ScientificCalculatorViewController: UIViewController {
             res = pow(Double(num2!), 3)
             break;
         case 25:
-            //10^x
-            res = pow(Double(num1!), Double(num2!))
+            //10^n
+            res = pow(10, Double(num2!))
 
         
         default:
