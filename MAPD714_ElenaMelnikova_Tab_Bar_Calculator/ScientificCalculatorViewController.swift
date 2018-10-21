@@ -33,7 +33,7 @@ class ScientificCalculatorViewController: UIViewController {
     // https://www.fileformat.info/info/unicode/block/superscripts_and_subscripts/list.htm
        
         xExp2.setTitle("x\u{00B2}", for: [])
-        xExp2.setTitle("x\u{00B3}", for: [])
+        xExp3.setTitle("x\u{00B3}", for: [])
         tenExpN.setTitle("10\u{207F}", for: [])
     }
     
