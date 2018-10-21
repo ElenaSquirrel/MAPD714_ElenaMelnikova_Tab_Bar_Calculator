@@ -83,6 +83,11 @@
 			isa = PBXGroup;
 			children = (
 				C00FB68821765D8C0002F92F /* AppDelegate.swift */,
+				C00FB69A21765EA60002F92F /* TabBarViewController.swift */,
+				C00FB69C21765EBB0002F92F /* BasicCalculatorViewController.swift */,
+				C00FB69E21765ECF0002F92F /* ScientificCalculatorViewController.swift */,
+				C00FB6A021765EDF0002F92F /* OptionsViewController.swift */,
+				C0F5A5AF2177B06100DDF9AE /* UILabelPadding.swift */,
 				C00FB68C21765D8C0002F92F /* Main.storyboard */,
 				C00FB68F21765D8D0002F92F /* Assets.xcassets */,
 				C00481F4217D113900BC31BA /* doubleicon.png */,
@@ -97,11 +102,6 @@
 				C0048201217D118400BC31BA /* Splash_image.png */,
 				C00FB69121765D8D0002F92F /* LaunchScreen.storyboard */,
 				C00FB69421765D8D0002F92F /* Info.plist */,
-				C00FB69A21765EA60002F92F /* TabBarViewController.swift */,
-				C00FB69C21765EBB0002F92F /* BasicCalculatorViewController.swift */,
-				C00FB69E21765ECF0002F92F /* ScientificCalculatorViewController.swift */,
-				C00FB6A021765EDF0002F92F /* OptionsViewController.swift */,
-				C0F5A5AF2177B06100DDF9AE /* UILabelPadding.swift */,
 			);
 			path = MAPD714_ElenaMelnikova_Tab_Bar_Calculator;
 			sourceTree = "<group>";

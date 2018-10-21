@@ -1,15 +1,18 @@
-//
+
 //  BasicCalculatorViewController.swift
-//  MAPD714_ElenaMelnikova_Tab_Bar_Calculator
-//
+
+//  Calculator with Tab Bar Controller version 1.2
 //  Created by Elena Melnikova on 2018-10-16.
+//  Student ID: 301025880
+//  Last modification date: 2018-10-21
 //  Copyright © 2018 Centennial College. All rights reserved.
-//
+
 
 import UIKit
 
 class BasicCalculatorViewController: UIViewController {
     
+    // Set picked colors for Basic Calculator
     let defaults = UserDefaults.standard
     
     func getSubviewsOfView(v:UIView) -> [UIButton] {
@@ -23,7 +26,6 @@ class BasicCalculatorViewController: UIViewController {
         return buttonArray
     }
     
-  
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -38,7 +40,6 @@ class BasicCalculatorViewController: UIViewController {
         
         if basicBackgroundColor == nil{
             basicBackgroundColor = "Dark Gray"
-
         }
         
         switch basicBackgroundColor {
@@ -93,11 +94,11 @@ class BasicCalculatorViewController: UIViewController {
         }
     }
     
+    // Basic Calculator functionality
     
     //Number displayed on screen
     
     var screenNumber:Double? = nil
-    
     
     //Number displayed on screen before operation
     var previousNumber:Double? = nil
@@ -111,8 +112,7 @@ class BasicCalculatorViewController: UIViewController {
     var eql = false
     
     //UILabel! with paddings that set in UILabelPaddind.swift
-
-
+    
     @IBOutlet weak var label: UILabelPadding!
     
     //Normalize string to string
@@ -154,9 +154,8 @@ class BasicCalculatorViewController: UIViewController {
     }
     
     
-    
     //Process number entered
-
+    
     @IBAction func numberField(_ sender: UIButton) {
         eql = false
         //Do not allow enter second "." if "." already presents in the label
@@ -284,6 +283,10 @@ class BasicCalculatorViewController: UIViewController {
             previousNumber = nil;
         }
         
+        if screenNumber == nil {
+            screenNumber = 0
+        }
+        
         //"+/-" button clicked
         if sender.tag == 12 {
             screenNumber = -screenNumber!
@@ -388,7 +391,9 @@ class BasicCalculatorViewController: UIViewController {
                 label.text = "Overflow"
                 performingMath = false
                 return
-            }            //Normalize result
+            }
+            
+            //Normalize result
             var str = normalize(input: res)
             
             //Normalize double
@@ -425,7 +430,6 @@ class BasicCalculatorViewController: UIViewController {
             return
         }
     }
-    
     func operationToLabel(tag:Int) -> String {
         switch tag {
         case 13:
@@ -447,7 +451,6 @@ class BasicCalculatorViewController: UIViewController {
             return ""
         }
     }
-    
     
     func oper(num1: Double?, num2: Double?, operation:Int) -> Double {
         var res: Double = 0
@@ -478,12 +481,5 @@ class BasicCalculatorViewController: UIViewController {
         }
         return res
     }
-    
-    
-   //Get data from options
-
-
-
-    
-    
 }
+

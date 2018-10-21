@@ -1,10 +1,11 @@
-//
+
 //  OptionsViewController.swift
-//  MAPD714_ElenaMelnikova_Tab_Bar_Calculator
-//
+
+//  Calculator with Tab Bar Controller version 1.2
 //  Created by Elena Melnikova on 2018-10-16.
+//  Student ID: 301025880
+//  Last modification date: 2018-10-21
 //  Copyright © 2018 Centennial College. All rights reserved.
-//
 
 import UIKit
 
@@ -43,15 +44,6 @@ class OptionsViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
     @IBAction func submitOptions(_ sender: UIButton) {
         let row_backgroundColor = color_picker.selectedRow(inComponent: 0)
         let row_textColor = color_picker.selectedRow(inComponent: 1)
@@ -75,12 +67,12 @@ class OptionsViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
 //        alert.addAction(action)
 //        present(alert, animated: true, completion: nil)
 
+        // Set defaults key value pairs to send colors data for calculators
         defaults.set(selected_backgroundColor, forKey: "backgroundColor")
         defaults.set(selected_textColor, forKey: "textColor")
-
-    
-        
     }
+    
+    // MARK: Picker Data Source Methods
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 2
     }

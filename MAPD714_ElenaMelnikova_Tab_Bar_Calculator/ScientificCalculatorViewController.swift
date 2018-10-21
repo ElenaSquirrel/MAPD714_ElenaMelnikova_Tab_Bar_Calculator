@@ -1,14 +1,18 @@
-//
+
 //  ScientificCalculatorViewController.swift
-//  MAPD714_ElenaMelnikova_Tab_Bar_Calculator
-//
+
+//  Calculator with Tab Bar Controller version 1.2
 //  Created by Elena Melnikova on 2018-10-16.
+//  Student ID: 301025880
+//  Last modification date: 2018-10-21
 //  Copyright © 2018 Centennial College. All rights reserved.
-//
+
 
 import UIKit
 
 class ScientificCalculatorViewController: UIViewController {
+    
+    // Set picked colors for Scientific Calculator
     let defaults = UserDefaults.standard
     
     func getSubviewsOfView(v:UIView) -> [UIButton] {
@@ -22,7 +26,7 @@ class ScientificCalculatorViewController: UIViewController {
         return buttonArray
     }
     
-    // Set x^2, x^3 and 10^x in readable form
+    // Set x^2, x^3 and 10^n in readable unicode form
     
     @IBOutlet weak var xExp2: UIButton!
     @IBOutlet weak var xExp3: UIButton!
@@ -30,8 +34,8 @@ class ScientificCalculatorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    // https://www.fileformat.info/info/unicode/block/superscripts_and_subscripts/list.htm
-       
+        // https://www.fileformat.info/info/unicode/block/superscripts_and_subscripts/list.htm
+        
         xExp2.setTitle("x\u{00B2}", for: [])
         xExp3.setTitle("x\u{00B3}", for: [])
         tenExpN.setTitle("10\u{207F}", for: [])
@@ -47,7 +51,6 @@ class ScientificCalculatorViewController: UIViewController {
         
         if scientificBackgroundColor == nil{
             scientificBackgroundColor = "Dark Gray"
-            
         }
         
         switch scientificBackgroundColor {
@@ -102,12 +105,9 @@ class ScientificCalculatorViewController: UIViewController {
         }
     }
     
+    // Basic Calculator functionality
     
-    
-    
-    
-    
-    
+    //Number displayed on screen
     var screenNumber:Double? = nil
     
     //Number displayed on screen before operation
@@ -162,10 +162,8 @@ class ScientificCalculatorViewController: UIViewController {
         return normalize(input:str)
     }
     
-    
-    
     //Process number entered
-
+    
     @IBAction func numberField(_ sender: UIButton) {
         eql = false
         //Do not allow enter second "." if "." already presents in the label
@@ -264,7 +262,7 @@ class ScientificCalculatorViewController: UIViewController {
             }
         }
     }
-        //Process operation entered
+    //Process operation entered
     
     @IBAction func operationsField(_ sender: UIButton) {
         if sender.tag != 18 {
@@ -292,6 +290,11 @@ class ScientificCalculatorViewController: UIViewController {
             previousNumber = nil;
         }
         
+        if screenNumber == nil {
+            screenNumber = 0
+        }
+        
+        
         //"+/-" button clicked
         if sender.tag == 12 {
             screenNumber = -screenNumber!
@@ -307,7 +310,7 @@ class ScientificCalculatorViewController: UIViewController {
             label.text = "Error"
             performingMath = false
             return
-        }else if operation == 14 && screenNumber! == 0 {
+        } else if operation == 14 && screenNumber! == 0 {
             //Set error
             previousNumber = nil
             screenNumber = nil
@@ -316,6 +319,38 @@ class ScientificCalculatorViewController: UIViewController {
             return
         } else if sender.tag == 13 && screenNumber! >= 0 {
             let res = oper(num1:previousNumber, num2:screenNumber, operation:13)
+            
+            //Normalize result
+            let str = normalize(input: res)
+            
+            //Normalize double
+            let dbl = Double(str)
+            
+            //Update label
+            label.text = str
+            
+            //Update screenNumber
+            screenNumber = dbl
+            operation = sender.tag
+            
+            //Set performanceMath flag
+            performingMath = true
+            
+            return
+        } else if sender.tag == 20 || sender.tag == 21 || sender.tag == 22 || sender.tag == 23 || sender.tag == 24 || sender.tag == 25 {
+            if screenNumber == nil {
+                screenNumber = 0
+            }
+            
+            let res = oper(num1:previousNumber, num2:screenNumber, operation:sender.tag)
+            if res > 99999999 || res < -99999999 || (res > 0 && res < 0.000001) || (res < 0 && res > -0.000001 ) {
+                //Set error
+                previousNumber = nil
+                screenNumber = nil
+                label.text = "Overflow"
+                performingMath = false
+                return
+            }
             
             //Normalize result
             let str = normalize(input: res)
@@ -396,7 +431,9 @@ class ScientificCalculatorViewController: UIViewController {
                 label.text = "Overflow"
                 performingMath = false
                 return
-            }            //Normalize result
+            }
+            
+            //Normalize result
             var str = normalize(input: res)
             
             //Normalize double
@@ -474,7 +511,6 @@ class ScientificCalculatorViewController: UIViewController {
         }
     }
     
-    
     func oper(num1: Double?, num2: Double?, operation:Int) -> Double {
         var res: Double = 0
         switch operation {
@@ -522,11 +558,10 @@ class ScientificCalculatorViewController: UIViewController {
         case 25:
             //10^n
             res = pow(10, Double(num2!))
-
-        
         default:
             res = num2!
         }
         return res
     }
 }
+

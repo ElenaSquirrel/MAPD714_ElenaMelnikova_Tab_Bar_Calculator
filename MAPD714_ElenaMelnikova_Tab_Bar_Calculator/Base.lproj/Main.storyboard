@@ -26,7 +26,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="dbS-aU-vxy"/>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="CJP-uy-gbP"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" tag="19" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJQ-ar-RpO" customClass="UILabelPadding" customModule="MAPD714_ElenaMelnikova_Tab_Bar_Calculator" customModuleProvider="target">
@@ -47,7 +47,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="rg9-WG-THN"/>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="cPB-XE-ZRI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzi-3k-KT1">
@@ -58,7 +58,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="th2-OT-KWz"/>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="kIZ-Xz-BW7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIb-7D-7Io">
@@ -69,7 +69,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="HfK-lK-nmA"/>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="Wfm-QQ-q3p"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cin-QQ-jFE">
@@ -80,7 +80,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="Spw-tz-MOj"/>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="Fen-6S-CK2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUN-Za-UPD">
@@ -102,7 +102,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="hTB-cT-5Yi"/>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="GB1-KK-nQf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9H-Qe-xzy">
@@ -113,7 +113,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="eiS-EM-NAB"/>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="sSD-yS-3po"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xva-sl-ZHz">
@@ -124,7 +124,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="5CH-y7-G6E"/>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="Pcm-84-RGg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jce-ae-8lN">
@@ -135,7 +135,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="ras-P5-LcT"/>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="OsM-Hm-FJ6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmH-w4-R2B">
@@ -157,7 +157,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="YiH-hm-noL"/>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="e47-gh-YIt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZU5-qi-hKH">
@@ -168,7 +168,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="9KQ-ha-DoW"/>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="AOD-79-ka1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rga-Gu-OdT">
@@ -179,7 +179,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="1Jw-DI-6B6"/>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="2UH-Rv-edz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVF-pw-9SK">
@@ -190,7 +190,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="aMu-wh-NgF"/>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="8qv-Vf-AlF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9c4-pZ-X3W">
@@ -212,7 +212,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="cmi-0k-zux"/>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="gIv-6R-QAb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVd-BI-QZB">
@@ -223,7 +223,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="agx-Oo-8ae"/>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="Rhb-lx-11z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6v-8e-cc4">
@@ -234,7 +234,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="Exk-N2-UaZ"/>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="qoq-I1-7nh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERI-Uq-Rzo">
@@ -245,7 +245,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="fp4-Gr-a9G"/>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="spe-y6-RCa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5p-Ch-5W1">
@@ -267,7 +267,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="ghM-34-1QE"/>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="W9C-yP-YrD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehn-DA-ZCj">
@@ -289,7 +289,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="a4Q-Pg-eFP"/>
+                                    <action selector="numberField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="kPy-4s-9cD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xgn-lz-M4R">
@@ -300,7 +300,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="QCg-ai-uOJ"/>
+                                    <action selector="operationsField:" destination="FNE-sC-Pht" eventType="touchUpInside" id="BNi-GG-VVe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Zc-1N-vRh">
@@ -439,12 +439,12 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Scientific Calculator" image="doubleicon" id="G92-O0-t7k"/>
+                    <tabBarItem key="tabBarItem" title="Scientific Calculator" image="doubleicon.png" id="G92-O0-t7k"/>
                     <connections>
-                        <outlet property="label" destination="lJQ-ar-RpO" id="8LO-kZ-WtW"/>
-                        <outlet property="tenExpN" destination="QIb-7D-7Io" id="qXc-ka-nOA"/>
-                        <outlet property="xExp2" destination="1T3-ko-Sxj" id="vP7-Ce-ZCz"/>
-                        <outlet property="xExp3" destination="mzi-3k-KT1" id="jPi-qu-YHf"/>
+                        <outlet property="label" destination="lJQ-ar-RpO" id="N7U-32-mTT"/>
+                        <outlet property="tenExpN" destination="QIb-7D-7Io" id="Adf-7U-4Oq"/>
+                        <outlet property="xExp2" destination="1T3-ko-Sxj" id="zGK-OY-qKv"/>
+                        <outlet property="xExp3" destination="mzi-3k-KT1" id="jMK-SD-uKY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dsI-nf-anA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -467,20 +467,20 @@
                                 </connections>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DWM-PQ-JVY">
-                                <rect key="frame" x="0.0" y="30" width="375" height="30"/>
+                                <rect key="frame" x="0.0" y="40" width="375" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Background Color    &amp;    Text Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tO2-ZP-SYS">
-                                <rect key="frame" x="10" y="90" width="355" height="21"/>
+                                <rect key="frame" x="0.0" y="90" width="375" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3f-hk-jeH">
-                                <rect key="frame" x="100" y="542" width="175" height="36"/>
-                                <color key="backgroundColor" red="0.16272291489999999" green="0.58597797929999995" blue="0.22003547609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="0.0" y="562" width="375" height="36"/>
+                                <color key="backgroundColor" red="0.12255353970000001" green="0.4766098024" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -492,23 +492,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="DWM-PQ-JVY" firstAttribute="top" secondItem="fEu-Vn-NKV" secondAttribute="top" constant="10" id="95c-tW-zZT"/>
-                            <constraint firstAttribute="trailing" secondItem="DWM-PQ-JVY" secondAttribute="trailing" id="Far-Ik-EFN"/>
-                            <constraint firstItem="Ejb-X8-2M1" firstAttribute="centerX" secondItem="G3f-hk-jeH" secondAttribute="centerX" id="LVV-R6-Xa4"/>
-                            <constraint firstItem="DWM-PQ-JVY" firstAttribute="leading" secondItem="Ejb-X8-2M1" secondAttribute="leading" id="X9y-pp-qIa"/>
-                            <constraint firstItem="Ejb-X8-2M1" firstAttribute="top" secondItem="tO2-ZP-SYS" secondAttribute="bottom" constant="20" id="Yyr-bj-HYZ"/>
-                            <constraint firstItem="tO2-ZP-SYS" firstAttribute="top" secondItem="DWM-PQ-JVY" secondAttribute="bottom" constant="30" id="bdz-QS-sBq"/>
-                            <constraint firstItem="tO2-ZP-SYS" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" constant="10" id="fDN-LQ-qWM"/>
-                            <constraint firstItem="DWM-PQ-JVY" firstAttribute="centerX" secondItem="tO2-ZP-SYS" secondAttribute="centerX" id="hwz-0d-NXP"/>
-                            <constraint firstItem="DWM-PQ-JVY" firstAttribute="leading" secondItem="LUL-rn-Z9a" secondAttribute="leading" id="i7B-SW-WaH"/>
-                            <constraint firstItem="DWM-PQ-JVY" firstAttribute="trailing" secondItem="Ejb-X8-2M1" secondAttribute="trailing" id="if4-Qc-REI"/>
-                            <constraint firstItem="fEu-Vn-NKV" firstAttribute="bottom" secondItem="G3f-hk-jeH" secondAttribute="bottom" constant="40" id="qQC-7y-pdQ"/>
-                            <constraint firstItem="fEu-Vn-NKV" firstAttribute="trailing" secondItem="G3f-hk-jeH" secondAttribute="trailing" constant="100" id="uV7-zG-AN4"/>
-                            <constraint firstItem="G3f-hk-jeH" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" constant="100" id="xWO-R7-8el"/>
+                            <constraint firstItem="tO2-ZP-SYS" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" id="14G-Lf-HSA"/>
+                            <constraint firstItem="tO2-ZP-SYS" firstAttribute="top" secondItem="DWM-PQ-JVY" secondAttribute="bottom" constant="20" id="BIN-cl-e57"/>
+                            <constraint firstItem="Ejb-X8-2M1" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" id="EC0-Et-y1q"/>
+                            <constraint firstItem="DWM-PQ-JVY" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" id="GHJ-p2-Kas"/>
+                            <constraint firstItem="fEu-Vn-NKV" firstAttribute="trailing" secondItem="Ejb-X8-2M1" secondAttribute="trailing" id="Nt1-4S-tov"/>
+                            <constraint firstItem="DWM-PQ-JVY" firstAttribute="top" secondItem="fEu-Vn-NKV" secondAttribute="top" constant="20" id="RMc-OJ-4rm"/>
+                            <constraint firstItem="fEu-Vn-NKV" firstAttribute="bottom" secondItem="G3f-hk-jeH" secondAttribute="bottom" constant="20" id="SD0-1b-Zhy"/>
+                            <constraint firstItem="fEu-Vn-NKV" firstAttribute="trailing" secondItem="G3f-hk-jeH" secondAttribute="trailing" id="V0U-Lq-ysf"/>
+                            <constraint firstItem="G3f-hk-jeH" firstAttribute="leading" secondItem="fEu-Vn-NKV" secondAttribute="leading" id="dXY-Nq-wHv"/>
+                            <constraint firstItem="fEu-Vn-NKV" firstAttribute="trailing" secondItem="tO2-ZP-SYS" secondAttribute="trailing" id="j0U-I5-jt6"/>
+                            <constraint firstItem="Ejb-X8-2M1" firstAttribute="top" secondItem="tO2-ZP-SYS" secondAttribute="bottom" constant="20" id="wUx-1Q-viu"/>
+                            <constraint firstItem="fEu-Vn-NKV" firstAttribute="trailing" secondItem="DWM-PQ-JVY" secondAttribute="trailing" id="zWH-Hb-h0d"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fEu-Vn-NKV"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Options" image="toolicon" id="PwG-vK-U2N"/>
+                    <tabBarItem key="tabBarItem" title="Options" image="toolicon.png" id="PwG-vK-U2N"/>
                     <connections>
                         <outlet property="color_picker" destination="Ejb-X8-2M1" id="7SN-lK-Ggd"/>
                     </connections>
@@ -552,7 +551,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="nss-n5-CsB"/>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="t9e-sk-Ja6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12q-Og-hfD">
@@ -563,7 +562,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="b7L-h0-b5A"/>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="3kH-AJ-SUE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXa-2J-H3g">
@@ -574,7 +573,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="A0Q-5d-irU"/>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="i4W-iL-fxJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZY-g9-GLQ">
@@ -585,7 +584,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="KgR-dz-1q1"/>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="nR5-ab-9w5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2f-UJ-QNs">
@@ -596,7 +595,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="iia-kv-rhm"/>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="w4d-9j-hrH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9W-53-HEu">
@@ -607,7 +606,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="t6J-33-r5c"/>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="IGh-Ac-ehq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIj-4d-2dx">
@@ -618,7 +617,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="aa3-5v-KkM"/>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="VkN-tD-lEm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WcG-dz-K1a">
@@ -629,7 +628,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="xnq-eK-uzY"/>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="zRb-MG-HoR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8q4-5x-oLA">
@@ -640,7 +639,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="6sb-PE-C1e"/>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="vCe-xB-rLI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbb-0z-Qef">
@@ -651,7 +650,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="JVA-cs-prz"/>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="xTg-Ht-LJ7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSF-ZJ-fQV">
@@ -662,7 +661,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="E4B-8b-Hjf"/>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="Aui-fm-1DB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0c-1q-lHV">
@@ -673,7 +672,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="KOG-5b-KOG"/>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="Jvq-Xt-v0T"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g47-2e-jD4">
@@ -684,7 +683,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="GgN-FY-I7G"/>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="3QT-Uy-4Ef"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAW-ts-eSf">
@@ -695,7 +694,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="bjA-hY-HaT"/>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="1Ws-xP-poa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eah-El-9eH">
@@ -706,7 +705,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="c3b-qI-ePz"/>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="LJX-Um-2Sw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghO-jY-uqX">
@@ -717,7 +716,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="iU0-Zu-Pm2"/>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="50D-CF-TXf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNm-NG-wGs">
@@ -728,7 +727,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="b9y-ey-9aJ"/>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="qwS-lJ-Irr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdV-Wq-3sM">
@@ -739,7 +738,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="LFt-SV-gBm"/>
+                                    <action selector="numberField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="gOJ-Fc-upT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWM-QM-igm">
@@ -750,7 +749,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="SE3-sE-NXQ"/>
+                                    <action selector="operationsField:" destination="rxd-GT-XAK" eventType="touchUpInside" id="Uip-HX-jm4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -854,9 +853,9 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Basic Calculator" image="singleicon" id="SHB-s7-Jyb"/>
+                    <tabBarItem key="tabBarItem" title="Basic Calculator" image="singleicon.png" id="SHB-s7-Jyb"/>
                     <connections>
-                        <outlet property="label" destination="NcJ-10-ylS" id="nBR-QO-gZc"/>
+                        <outlet property="label" destination="NcJ-10-ylS" id="Xhp-l0-eNG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NEG-YP-xgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -884,8 +883,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="doubleicon" width="25" height="24"/>
-        <image name="singleicon" width="25" height="24"/>
-        <image name="toolicon" width="24" height="24"/>
+        <image name="doubleicon.png" width="25" height="24"/>
+        <image name="singleicon.png" width="25" height="24"/>
+        <image name="toolicon.png" width="24" height="24"/>
     </resources>
 </document>

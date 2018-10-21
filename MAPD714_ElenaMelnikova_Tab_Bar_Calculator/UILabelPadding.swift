@@ -1,10 +1,11 @@
-//
+
 //  UILabelPadding.swift
-//  MAPD714_ElenaMelnikova_Tab_Bar_Calculator
-//
-//  Created by Elena Melnikova on 2018-10-17.
+
+//  Calculator with Tab Bar Controller version 1.2
+//  Created by Elena Melnikova on 2018-10-16.
+//  Student ID: 301025880
+//  Last modification date: 2018-10-21
 //  Copyright © 2018 Centennial College. All rights reserved.
-//
 
 import UIKit
 import Foundation
